@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  booleans
+//  Loops
 //
 //  Created by Aaron Caines on 10/10/2017.
 //  Copyright © 2017 Aaron Caines. All rights reserved.
@@ -17,20 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+  
+  int number = 10;
+  
+  for (number = 20; number > 0; number -= 1) {
+    NSLog(@"%i", number);
+  }
     
-    bool1 = YES;
-    bool2 = true;
-    
-    self.mySwitch.on = bool1;
-    
-    self.button.enabled = bool2;
-    
-//    bool1 = YES;
-//    bool2 = true;
+//    int number = 10;
 //
-//    self.mySwitch.on = bool1;
+//    for (number = 20; number > 0; number -= 1) {
 //
-//    self.button.enabled = bool2;
+//        NSLog(@"%i", number);
+//
+//    }
+    
+    
+    
 }
 
 

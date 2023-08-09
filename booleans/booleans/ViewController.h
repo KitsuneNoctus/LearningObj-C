@@ -13,13 +13,15 @@
     BOOL bool1;
     BOOL bool2;
     
+//    BOOL bool1;
+//    BOOL bool2;
+    
 }
-
-
-
 
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UISwitch *mySwitch;
+
+
 
 
 
