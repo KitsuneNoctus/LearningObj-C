@@ -13,7 +13,6 @@
 		128808201EF2D68A00162836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1288081F1EF2D68A00162836 /* Assets.xcassets */; };
 		128808231EF2D68A00162836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128808211EF2D68A00162836 /* LaunchScreen.storyboard */; };
 		128808261EF2D68A00162836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 128808251EF2D68A00162836 /* main.m */; };
-		1288082D1EF2E82C00162836 /* edgeracer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1288082C1EF2E82C00162836 /* edgeracer.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		128808221EF2D68A00162836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128808241EF2D68A00162836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128808251EF2D68A00162836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1288082C1EF2E82C00162836 /* edgeracer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = edgeracer.ttf; path = ../../edge_racer/edgeracer.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				128808211EF2D68A00162836 /* LaunchScreen.storyboard */,
 				128808241EF2D68A00162836 /* Info.plist */,
 				128808251EF2D68A00162836 /* main.m */,
-				1288082C1EF2E82C00162836 /* edgeracer.ttf */,
 			);
 			path = ObjectiveFunctions;
 			sourceTree = "<group>";
@@ -134,7 +131,6 @@
 				128808231EF2D68A00162836 /* LaunchScreen.storyboard in Resources */,
 				128808201EF2D68A00162836 /* Assets.xcassets in Resources */,
 				1288081E1EF2D68A00162836 /* Main.storyboard in Resources */,
-				1288082D1EF2E82C00162836 /* edgeracer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +314,7 @@
 				1288082B1EF2D68A00162836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

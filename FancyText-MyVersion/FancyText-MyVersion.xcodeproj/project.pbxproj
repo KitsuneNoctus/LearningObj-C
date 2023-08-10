@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAFFA7DB2A8563EF00F841D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7DA2A8563EF00F841D1 /* AppDelegate.m */; };
+		BAFFA7DE2A8563EF00F841D1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7DD2A8563EF00F841D1 /* SceneDelegate.m */; };
+		BAFFA7E12A8563EF00F841D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7E02A8563EF00F841D1 /* ViewController.m */; };
+		BAFFA7E42A8563EF00F841D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA7E22A8563EF00F841D1 /* Main.storyboard */; };
+		BAFFA7E62A8563F000F841D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA7E52A8563F000F841D1 /* Assets.xcassets */; };
+		BAFFA7E92A8563F000F841D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA7E72A8563F000F841D1 /* LaunchScreen.storyboard */; };
+		BAFFA7EC2A8563F000F841D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7EB2A8563F000F841D1 /* main.m */; };
+		BAFFA7F62A8563F100F841D1 /* FancyText_MyVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7F52A8563F100F841D1 /* FancyText_MyVersionTests.m */; };
+		BAFFA8002A8563F100F841D1 /* FancyText_MyVersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7FF2A8563F100F841D1 /* FancyText_MyVersionUITests.m */; };
+		BAFFA8022A8563F100F841D1 /* FancyText_MyVersionUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA8012A8563F100F841D1 /* FancyText_MyVersionUITestsLaunchTests.m */; };
+		BAFFA8112A856CAB00F841D1 /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA80E2A856CAA00F841D1 /* SugarstyleMillenial-Regular.ttf */; };
+		BAFFA8122A856CAB00F841D1 /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA80F2A856CAB00F841D1 /* Moon Flower.ttf */; };
+		BAFFA8132A856CAB00F841D1 /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA8102A856CAB00F841D1 /* LemonMilk.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAFFA7F22A8563F100F841D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFFA7CE2A8563EF00F841D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFFA7D52A8563EF00F841D1;
+			remoteInfo = "FancyText-MyVersion";
+		};
+		BAFFA7FC2A8563F100F841D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFFA7CE2A8563EF00F841D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFFA7D52A8563EF00F841D1;
+			remoteInfo = "FancyText-MyVersion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAFFA7D62A8563EF00F841D1 /* FancyText-MyVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FancyText-MyVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFFA7D92A8563EF00F841D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAFFA7DA2A8563EF00F841D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAFFA7DC2A8563EF00F841D1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BAFFA7DD2A8563EF00F841D1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BAFFA7DF2A8563EF00F841D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAFFA7E02A8563EF00F841D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAFFA7E32A8563EF00F841D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAFFA7E52A8563F000F841D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFFA7E82A8563F000F841D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAFFA7EA2A8563F000F841D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFFA7EB2A8563F000F841D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAFFA7F12A8563F100F841D1 /* FancyText-MyVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FancyText-MyVersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFFA7F52A8563F100F841D1 /* FancyText_MyVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyText_MyVersionTests.m; sourceTree = "<group>"; };
+		BAFFA7FB2A8563F100F841D1 /* FancyText-MyVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FancyText-MyVersionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFFA7FF2A8563F100F841D1 /* FancyText_MyVersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyText_MyVersionUITests.m; sourceTree = "<group>"; };
+		BAFFA8012A8563F100F841D1 /* FancyText_MyVersionUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyText_MyVersionUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BAFFA80E2A856CAA00F841D1 /* SugarstyleMillenial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SugarstyleMillenial-Regular.ttf"; path = "../../Fancy Text App/Files/SugarstyleMillenial-Regular.ttf"; sourceTree = "<group>"; };
+		BAFFA80F2A856CAB00F841D1 /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Moon Flower.ttf"; path = "../../Fancy Text App/Files/Moon Flower.ttf"; sourceTree = "<group>"; };
+		BAFFA8102A856CAB00F841D1 /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LemonMilk.otf; path = "../../Fancy Text App/Files/LemonMilk.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAFFA7D32A8563EF00F841D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFFA7EE2A8563F100F841D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFFA7F82A8563F100F841D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAFFA7CD2A8563EF00F841D1 = {
+			isa = PBXGroup;
+			children = (
+				BAFFA7D82A8563EF00F841D1 /* FancyText-MyVersion */,
+				BAFFA7F42A8563F100F841D1 /* FancyText-MyVersionTests */,
+				BAFFA7FE2A8563F100F841D1 /* FancyText-MyVersionUITests */,
+				BAFFA7D72A8563EF00F841D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAFFA7D72A8563EF00F841D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFFA7D62A8563EF00F841D1 /* FancyText-MyVersion.app */,
+				BAFFA7F12A8563F100F841D1 /* FancyText-MyVersionTests.xctest */,
+				BAFFA7FB2A8563F100F841D1 /* FancyText-MyVersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFFA7D82A8563EF00F841D1 /* FancyText-MyVersion */ = {
+			isa = PBXGroup;
+			children = (
+				BAFFA7D92A8563EF00F841D1 /* AppDelegate.h */,
+				BAFFA7DA2A8563EF00F841D1 /* AppDelegate.m */,
+				BAFFA7DC2A8563EF00F841D1 /* SceneDelegate.h */,
+				BAFFA8102A856CAB00F841D1 /* LemonMilk.otf */,
+				BAFFA80F2A856CAB00F841D1 /* Moon Flower.ttf */,
+				BAFFA80E2A856CAA00F841D1 /* SugarstyleMillenial-Regular.ttf */,
+				BAFFA7DD2A8563EF00F841D1 /* SceneDelegate.m */,
+				BAFFA7DF2A8563EF00F841D1 /* ViewController.h */,
+				BAFFA7E02A8563EF00F841D1 /* ViewController.m */,
+				BAFFA7E22A8563EF00F841D1 /* Main.storyboard */,
+				BAFFA7E52A8563F000F841D1 /* Assets.xcassets */,
+				BAFFA7E72A8563F000F841D1 /* LaunchScreen.storyboard */,
+				BAFFA7EA2A8563F000F841D1 /* Info.plist */,
+				BAFFA7EB2A8563F000F841D1 /* main.m */,
+			);
+			path = "FancyText-MyVersion";
+			sourceTree = "<group>";
+		};
+		BAFFA7F42A8563F100F841D1 /* FancyText-MyVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAFFA7F52A8563F100F841D1 /* FancyText_MyVersionTests.m */,
+			);
+			path = "FancyText-MyVersionTests";
+			sourceTree = "<group>";
+		};
+		BAFFA7FE2A8563F100F841D1 /* FancyText-MyVersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAFFA7FF2A8563F100F841D1 /* FancyText_MyVersionUITests.m */,
+				BAFFA8012A8563F100F841D1 /* FancyText_MyVersionUITestsLaunchTests.m */,
+			);
+			path = "FancyText-MyVersionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAFFA7D52A8563EF00F841D1 /* FancyText-MyVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFFA8052A8563F100F841D1 /* Build configuration list for PBXNativeTarget "FancyText-MyVersion" */;
+			buildPhases = (
+				BAFFA7D22A8563EF00F841D1 /* Sources */,
+				BAFFA7D32A8563EF00F841D1 /* Frameworks */,
+				BAFFA7D42A8563EF00F841D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FancyText-MyVersion";
+			productName = "FancyText-MyVersion";
+			productReference = BAFFA7D62A8563EF00F841D1 /* FancyText-MyVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAFFA7F02A8563F100F841D1 /* FancyText-MyVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFFA8082A8563F100F841D1 /* Build configuration list for PBXNativeTarget "FancyText-MyVersionTests" */;
+			buildPhases = (
+				BAFFA7ED2A8563F100F841D1 /* Sources */,
+				BAFFA7EE2A8563F100F841D1 /* Frameworks */,
+				BAFFA7EF2A8563F100F841D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFFA7F32A8563F100F841D1 /* PBXTargetDependency */,
+			);
+			name = "FancyText-MyVersionTests";
+			productName = "FancyText-MyVersionTests";
+			productReference = BAFFA7F12A8563F100F841D1 /* FancyText-MyVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAFFA7FA2A8563F100F841D1 /* FancyText-MyVersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFFA80B2A8563F100F841D1 /* Build configuration list for PBXNativeTarget "FancyText-MyVersionUITests" */;
+			buildPhases = (
+				BAFFA7F72A8563F100F841D1 /* Sources */,
+				BAFFA7F82A8563F100F841D1 /* Frameworks */,
+				BAFFA7F92A8563F100F841D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFFA7FD2A8563F100F841D1 /* PBXTargetDependency */,
+			);
+			name = "FancyText-MyVersionUITests";
+			productName = "FancyText-MyVersionUITests";
+			productReference = BAFFA7FB2A8563F100F841D1 /* FancyText-MyVersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAFFA7CE2A8563EF00F841D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BAFFA7D52A8563EF00F841D1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BAFFA7F02A8563F100F841D1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BAFFA7D52A8563EF00F841D1;
+					};
+					BAFFA7FA2A8563F100F841D1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BAFFA7D52A8563EF00F841D1;
+					};
+				};
+			};
+			buildConfigurationList = BAFFA7D12A8563EF00F841D1 /* Build configuration list for PBXProject "FancyText-MyVersion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAFFA7CD2A8563EF00F841D1;
+			productRefGroup = BAFFA7D72A8563EF00F841D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAFFA7D52A8563EF00F841D1 /* FancyText-MyVersion */,
+				BAFFA7F02A8563F100F841D1 /* FancyText-MyVersionTests */,
+				BAFFA7FA2A8563F100F841D1 /* FancyText-MyVersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAFFA7D42A8563EF00F841D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFFA8122A856CAB00F841D1 /* Moon Flower.ttf in Resources */,
+				BAFFA8112A856CAB00F841D1 /* SugarstyleMillenial-Regular.ttf in Resources */,
+				BAFFA8132A856CAB00F841D1 /* LemonMilk.otf in Resources */,
+				BAFFA7E92A8563F000F841D1 /* LaunchScreen.storyboard in Resources */,
+				BAFFA7E62A8563F000F841D1 /* Assets.xcassets in Resources */,
+				BAFFA7E42A8563EF00F841D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFFA7EF2A8563F100F841D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFFA7F92A8563F100F841D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAFFA7D22A8563EF00F841D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFFA7E12A8563EF00F841D1 /* ViewController.m in Sources */,
+				BAFFA7DB2A8563EF00F841D1 /* AppDelegate.m in Sources */,
+				BAFFA7EC2A8563F000F841D1 /* main.m in Sources */,
+				BAFFA7DE2A8563EF00F841D1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFFA7ED2A8563F100F841D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFFA7F62A8563F100F841D1 /* FancyText_MyVersionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFFA7F72A8563F100F841D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFFA8022A8563F100F841D1 /* FancyText_MyVersionUITestsLaunchTests.m in Sources */,
+				BAFFA8002A8563F100F841D1 /* FancyText_MyVersionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAFFA7F32A8563F100F841D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFFA7D52A8563EF00F841D1 /* FancyText-MyVersion */;
+			targetProxy = BAFFA7F22A8563F100F841D1 /* PBXContainerItemProxy */;
+		};
+		BAFFA7FD2A8563F100F841D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFFA7D52A8563EF00F841D1 /* FancyText-MyVersion */;
+			targetProxy = BAFFA7FC2A8563F100F841D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAFFA7E22A8563EF00F841D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFFA7E32A8563EF00F841D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAFFA7E72A8563F000F841D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFFA7E82A8563F000F841D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAFFA8032A8563F100F841D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAFFA8042A8563F100F841D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFFA8062A8563F100F841D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FancyText-MyVersion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.FancyText-MyVersion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAFFA8072A8563F100F841D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FancyText-MyVersion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.FancyText-MyVersion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAFFA8092A8563F100F841D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.FancyText-MyVersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyText-MyVersion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FancyText-MyVersion";
+			};
+			name = Debug;
+		};
+		BAFFA80A2A8563F100F841D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.FancyText-MyVersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyText-MyVersion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FancyText-MyVersion";
+			};
+			name = Release;
+		};
+		BAFFA80C2A8563F100F841D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.FancyText-MyVersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FancyText-MyVersion";
+			};
+			name = Debug;
+		};
+		BAFFA80D2A8563F100F841D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.FancyText-MyVersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FancyText-MyVersion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAFFA7D12A8563EF00F841D1 /* Build configuration list for PBXProject "FancyText-MyVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFFA8032A8563F100F841D1 /* Debug */,
+				BAFFA8042A8563F100F841D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFFA8052A8563F100F841D1 /* Build configuration list for PBXNativeTarget "FancyText-MyVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFFA8062A8563F100F841D1 /* Debug */,
+				BAFFA8072A8563F100F841D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFFA8082A8563F100F841D1 /* Build configuration list for PBXNativeTarget "FancyText-MyVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFFA8092A8563F100F841D1 /* Debug */,
+				BAFFA80A2A8563F100F841D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFFA80B2A8563F100F841D1 /* Build configuration list for PBXNativeTarget "FancyText-MyVersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFFA80C2A8563F100F841D1 /* Debug */,
+				BAFFA80D2A8563F100F841D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAFFA7CE2A8563EF00F841D1 /* Project object */;
+}
