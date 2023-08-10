@@ -25,6 +25,7 @@
 - (IBAction)left:(id)sender;
 - (IBAction)right:(id)sender;
 
+- (IBAction)customFont:(id)sender;
 
 @end
 

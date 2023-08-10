@@ -17,6 +17,7 @@
 		BAFFA7B32A84066100F841D1 /* ObjectiveFunctions_FixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7B22A84066100F841D1 /* ObjectiveFunctions_FixTests.m */; };
 		BAFFA7BD2A84066100F841D1 /* ObjectiveFunctions_FixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7BC2A84066100F841D1 /* ObjectiveFunctions_FixUITests.m */; };
 		BAFFA7BF2A84066100F841D1 /* ObjectiveFunctions_FixUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFA7BE2A84066100F841D1 /* ObjectiveFunctions_FixUITestsLaunchTests.m */; };
+		BAFFA7CC2A8560DE00F841D1 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAFFA7CB2A8560DE00F841D1 /* SuperMario256.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BAFFA7B82A84066100F841D1 /* ObjectiveFunctions-FixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveFunctions-FixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFFA7BC2A84066100F841D1 /* ObjectiveFunctions_FixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveFunctions_FixUITests.m; sourceTree = "<group>"; };
 		BAFFA7BE2A84066100F841D1 /* ObjectiveFunctions_FixUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveFunctions_FixUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BAFFA7CB2A8560DE00F841D1 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				BAFFA7992A84065F00F841D1 /* SceneDelegate.h */,
 				BAFFA79A2A84065F00F841D1 /* SceneDelegate.m */,
 				BAFFA79C2A84065F00F841D1 /* ViewController.h */,
+				BAFFA7CB2A8560DE00F841D1 /* SuperMario256.ttf */,
 				BAFFA79D2A84065F00F841D1 /* ViewController.m */,
 				BAFFA79F2A84065F00F841D1 /* Main.storyboard */,
 				BAFFA7A22A84066100F841D1 /* Assets.xcassets */,
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFFA7A62A84066100F841D1 /* LaunchScreen.storyboard in Resources */,
+				BAFFA7CC2A8560DE00F841D1 /* SuperMario256.ttf in Resources */,
 				BAFFA7A32A84066100F841D1 /* Assets.xcassets in Resources */,
 				BAFFA7A12A84065F00F841D1 /* Main.storyboard in Resources */,
 			);

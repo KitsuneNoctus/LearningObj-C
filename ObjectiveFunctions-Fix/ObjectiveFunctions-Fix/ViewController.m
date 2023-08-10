@@ -29,6 +29,11 @@
 }
 
 
+- (IBAction)customFont:(id)sender {
+  
+  [self.label setFont:[UIFont fontWithName:@"SuperMarioGalaxy" size:30]];
+}
+
 - (IBAction)right:(id)sender {
   self.label.textAlignment = NSTextAlignmentRight;
 }
