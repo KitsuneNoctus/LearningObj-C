@@ -17,6 +17,7 @@
 		BA9E853D2A8AA33700DC492A /* My_Tap_Me_FastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E853C2A8AA33700DC492A /* My_Tap_Me_FastTests.m */; };
 		BA9E85472A8AA33700DC492A /* My_Tap_Me_FastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E85462A8AA33700DC492A /* My_Tap_Me_FastUITests.m */; };
 		BA9E85492A8AA33700DC492A /* My_Tap_Me_FastUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E85482A8AA33700DC492A /* My_Tap_Me_FastUITestsLaunchTests.m */; };
+		BA9E85562A8AA4D900DC492A /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BA9E85552A8AA4D900DC492A /* PORKYS_.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BA9E85422A8AA33700DC492A /* My Tap Me FastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Tap Me FastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9E85462A8AA33700DC492A /* My_Tap_Me_FastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Tap_Me_FastUITests.m; sourceTree = "<group>"; };
 		BA9E85482A8AA33700DC492A /* My_Tap_Me_FastUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Tap_Me_FastUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA9E85552A8AA4D900DC492A /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = PORKYS_.TTF; path = "../../Tap Me Fast/PORKYS_.TTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		BA9E851F2A8AA33500DC492A /* My Tap Me Fast */ = {
 			isa = PBXGroup;
 			children = (
+				BA9E85552A8AA4D900DC492A /* PORKYS_.TTF */,
 				BA9E85202A8AA33500DC492A /* AppDelegate.h */,
 				BA9E85212A8AA33500DC492A /* AppDelegate.m */,
 				BA9E85232A8AA33500DC492A /* SceneDelegate.h */,
@@ -241,6 +244,7 @@
 			files = (
 				BA9E85302A8AA33700DC492A /* LaunchScreen.storyboard in Resources */,
 				BA9E852D2A8AA33700DC492A /* Assets.xcassets in Resources */,
+				BA9E85562A8AA4D900DC492A /* PORKYS_.TTF in Resources */,
 				BA9E852B2A8AA33500DC492A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

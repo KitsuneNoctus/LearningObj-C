@@ -19,4 +19,6 @@
 }
 
 
+- (IBAction)startGame:(id)sender {
+}
 @end
