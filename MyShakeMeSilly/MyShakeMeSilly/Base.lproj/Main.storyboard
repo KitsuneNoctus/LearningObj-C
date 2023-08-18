@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="edosz.ttf">
+            <string>EdoSZ</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxe-RV-662">
+                                <rect key="frame" x="16" y="759" width="361" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="s2S-nm-Llc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start Game">
+                                    <fontDescription key="titleFontDescription" name="EdoSZ" family="Edo SZ" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bq9-xu-boI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake Me Silly" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gcc-hm-fUO">
+                                <rect key="frame" x="16" y="59" width="361" height="176"/>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.75090348639455784" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNv-X3-WLh">
+                                <rect key="frame" x="16" y="231" width="361" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Gyj-za-NGX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.75090348639455784" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phK-D7-kBZ">
+                                <rect key="frame" x="16" y="646" width="361" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="UKu-QF-1zX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.75090348639455784" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Maracas1" translatesAutoresizingMaskIntoConstraints="NO" id="NZR-hP-sYT">
+                                <rect key="frame" x="16" y="304" width="361" height="334"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="hq0-bQ-J2X">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NZR-hP-sYT" firstAttribute="top" secondItem="eNv-X3-WLh" secondAttribute="bottom" constant="8" symbolic="YES" id="3Ep-Rk-5di"/>
+                            <constraint firstItem="Uxe-RV-662" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6ai-he-qil"/>
+                            <constraint firstItem="NZR-hP-sYT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9po-7Z-HE1"/>
+                            <constraint firstItem="hq0-bQ-J2X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AGH-jZ-9Ub"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NZR-hP-sYT" secondAttribute="trailing" constant="16" id="Co3-Fc-MHy"/>
+                            <constraint firstItem="eNv-X3-WLh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ecs-nm-lVp"/>
+                            <constraint firstItem="eNv-X3-WLh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="172" id="LBL-c9-NFx"/>
+                            <constraint firstItem="NZR-hP-sYT" firstAttribute="top" secondItem="gcc-hm-fUO" secondAttribute="bottom" constant="69" id="Ov4-cB-LPf"/>
+                            <constraint firstItem="hq0-bQ-J2X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SIQ-TI-bXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gcc-hm-fUO" secondAttribute="trailing" constant="16" id="XCz-hi-QwK"/>
+                            <constraint firstItem="gcc-hm-fUO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="59" id="ZFk-cj-Tyk"/>
+                            <constraint firstItem="Uxe-RV-662" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="act-dI-Tp9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uxe-RV-662" secondAttribute="trailing" constant="16" id="bGa-YJ-Lk7"/>
+                            <constraint firstItem="phK-D7-kBZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bLf-tH-DP4"/>
+                            <constraint firstItem="hq0-bQ-J2X" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eyz-Ib-J8m"/>
+                            <constraint firstItem="phK-D7-kBZ" firstAttribute="top" secondItem="NZR-hP-sYT" secondAttribute="bottom" constant="8" symbolic="YES" id="ftv-gT-1Up"/>
+                            <constraint firstItem="Uxe-RV-662" firstAttribute="top" secondItem="phK-D7-kBZ" secondAttribute="bottom" constant="48" id="h5j-5d-JH0"/>
+                            <constraint firstAttribute="bottom" secondItem="hq0-bQ-J2X" secondAttribute="bottom" id="hyT-xC-rja"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eNv-X3-WLh" secondAttribute="trailing" constant="16" id="lQs-Vx-dai"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="phK-D7-kBZ" secondAttribute="trailing" constant="16" id="wWb-v9-596"/>
+                            <constraint firstItem="gcc-hm-fUO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yo8-2g-RVh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="NZR-hP-sYT" id="3j1-lC-2x2"/>
+                        <outlet property="scoreLabel" destination="phK-D7-kBZ" id="8kw-2E-d6b"/>
+                        <outlet property="startGameButton" destination="Uxe-RV-662" id="Oam-Gi-Mm0"/>
+                        <outlet property="timeLabel" destination="eNv-X3-WLh" id="OKl-P2-lI1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Maracas1" width="551" height="743"/>
+        <image name="beach" width="844" height="888"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

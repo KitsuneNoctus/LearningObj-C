@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA93AB872A8FF66E003D5F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB862A8FF66E003D5F37 /* AppDelegate.m */; };
+		BA93AB8A2A8FF66E003D5F37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB892A8FF66E003D5F37 /* SceneDelegate.m */; };
+		BA93AB8D2A8FF66E003D5F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB8C2A8FF66E003D5F37 /* ViewController.m */; };
+		BA93AB902A8FF66E003D5F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93AB8E2A8FF66E003D5F37 /* Main.storyboard */; };
+		BA93AB922A8FF670003D5F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93AB912A8FF670003D5F37 /* Assets.xcassets */; };
+		BA93AB952A8FF670003D5F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93AB932A8FF670003D5F37 /* LaunchScreen.storyboard */; };
+		BA93AB982A8FF670003D5F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB972A8FF670003D5F37 /* main.m */; };
+		BA93ABA22A8FF670003D5F37 /* MyShakeMeSillyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93ABA12A8FF670003D5F37 /* MyShakeMeSillyTests.m */; };
+		BA93ABAC2A8FF670003D5F37 /* MyShakeMeSillyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93ABAB2A8FF670003D5F37 /* MyShakeMeSillyUITests.m */; };
+		BA93ABAE2A8FF670003D5F37 /* MyShakeMeSillyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93ABAD2A8FF670003D5F37 /* MyShakeMeSillyUITestsLaunchTests.m */; };
+		BA93ABBD2A8FF6E3003D5F37 /* edosz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA93ABBC2A8FF6E3003D5F37 /* edosz.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA93AB9E2A8FF670003D5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA93AB7A2A8FF66E003D5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA93AB812A8FF66E003D5F37;
+			remoteInfo = MyShakeMeSilly;
+		};
+		BA93ABA82A8FF670003D5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA93AB7A2A8FF66E003D5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA93AB812A8FF66E003D5F37;
+			remoteInfo = MyShakeMeSilly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA93AB822A8FF66E003D5F37 /* MyShakeMeSilly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShakeMeSilly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AB852A8FF66E003D5F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA93AB862A8FF66E003D5F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA93AB882A8FF66E003D5F37 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA93AB892A8FF66E003D5F37 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA93AB8B2A8FF66E003D5F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA93AB8C2A8FF66E003D5F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA93AB8F2A8FF66E003D5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA93AB912A8FF670003D5F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA93AB942A8FF670003D5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA93AB962A8FF670003D5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA93AB972A8FF670003D5F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA93AB9D2A8FF670003D5F37 /* MyShakeMeSillyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShakeMeSillyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93ABA12A8FF670003D5F37 /* MyShakeMeSillyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShakeMeSillyTests.m; sourceTree = "<group>"; };
+		BA93ABA72A8FF670003D5F37 /* MyShakeMeSillyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShakeMeSillyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93ABAB2A8FF670003D5F37 /* MyShakeMeSillyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShakeMeSillyUITests.m; sourceTree = "<group>"; };
+		BA93ABAD2A8FF670003D5F37 /* MyShakeMeSillyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShakeMeSillyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA93ABBC2A8FF6E3003D5F37 /* edosz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edosz.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA93AB7F2A8FF66E003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB9A2A8FF670003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93ABA42A8FF670003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA93AB792A8FF66E003D5F37 = {
+			isa = PBXGroup;
+			children = (
+				BA93AB842A8FF66E003D5F37 /* MyShakeMeSilly */,
+				BA93ABA02A8FF670003D5F37 /* MyShakeMeSillyTests */,
+				BA93ABAA2A8FF670003D5F37 /* MyShakeMeSillyUITests */,
+				BA93AB832A8FF66E003D5F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA93AB832A8FF66E003D5F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AB822A8FF66E003D5F37 /* MyShakeMeSilly.app */,
+				BA93AB9D2A8FF670003D5F37 /* MyShakeMeSillyTests.xctest */,
+				BA93ABA72A8FF670003D5F37 /* MyShakeMeSillyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA93AB842A8FF66E003D5F37 /* MyShakeMeSilly */ = {
+			isa = PBXGroup;
+			children = (
+				BA93ABBC2A8FF6E3003D5F37 /* edosz.ttf */,
+				BA93AB852A8FF66E003D5F37 /* AppDelegate.h */,
+				BA93AB862A8FF66E003D5F37 /* AppDelegate.m */,
+				BA93AB882A8FF66E003D5F37 /* SceneDelegate.h */,
+				BA93AB892A8FF66E003D5F37 /* SceneDelegate.m */,
+				BA93AB8B2A8FF66E003D5F37 /* ViewController.h */,
+				BA93AB8C2A8FF66E003D5F37 /* ViewController.m */,
+				BA93AB8E2A8FF66E003D5F37 /* Main.storyboard */,
+				BA93AB912A8FF670003D5F37 /* Assets.xcassets */,
+				BA93AB932A8FF670003D5F37 /* LaunchScreen.storyboard */,
+				BA93AB962A8FF670003D5F37 /* Info.plist */,
+				BA93AB972A8FF670003D5F37 /* main.m */,
+			);
+			path = MyShakeMeSilly;
+			sourceTree = "<group>";
+		};
+		BA93ABA02A8FF670003D5F37 /* MyShakeMeSillyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA93ABA12A8FF670003D5F37 /* MyShakeMeSillyTests.m */,
+			);
+			path = MyShakeMeSillyTests;
+			sourceTree = "<group>";
+		};
+		BA93ABAA2A8FF670003D5F37 /* MyShakeMeSillyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA93ABAB2A8FF670003D5F37 /* MyShakeMeSillyUITests.m */,
+				BA93ABAD2A8FF670003D5F37 /* MyShakeMeSillyUITestsLaunchTests.m */,
+			);
+			path = MyShakeMeSillyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA93AB812A8FF66E003D5F37 /* MyShakeMeSilly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93ABB12A8FF670003D5F37 /* Build configuration list for PBXNativeTarget "MyShakeMeSilly" */;
+			buildPhases = (
+				BA93AB7E2A8FF66E003D5F37 /* Sources */,
+				BA93AB7F2A8FF66E003D5F37 /* Frameworks */,
+				BA93AB802A8FF66E003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyShakeMeSilly;
+			productName = MyShakeMeSilly;
+			productReference = BA93AB822A8FF66E003D5F37 /* MyShakeMeSilly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA93AB9C2A8FF670003D5F37 /* MyShakeMeSillyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93ABB42A8FF670003D5F37 /* Build configuration list for PBXNativeTarget "MyShakeMeSillyTests" */;
+			buildPhases = (
+				BA93AB992A8FF670003D5F37 /* Sources */,
+				BA93AB9A2A8FF670003D5F37 /* Frameworks */,
+				BA93AB9B2A8FF670003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA93AB9F2A8FF670003D5F37 /* PBXTargetDependency */,
+			);
+			name = MyShakeMeSillyTests;
+			productName = MyShakeMeSillyTests;
+			productReference = BA93AB9D2A8FF670003D5F37 /* MyShakeMeSillyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA93ABA62A8FF670003D5F37 /* MyShakeMeSillyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93ABB72A8FF670003D5F37 /* Build configuration list for PBXNativeTarget "MyShakeMeSillyUITests" */;
+			buildPhases = (
+				BA93ABA32A8FF670003D5F37 /* Sources */,
+				BA93ABA42A8FF670003D5F37 /* Frameworks */,
+				BA93ABA52A8FF670003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA93ABA92A8FF670003D5F37 /* PBXTargetDependency */,
+			);
+			name = MyShakeMeSillyUITests;
+			productName = MyShakeMeSillyUITests;
+			productReference = BA93ABA72A8FF670003D5F37 /* MyShakeMeSillyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA93AB7A2A8FF66E003D5F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA93AB812A8FF66E003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA93AB9C2A8FF670003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA93AB812A8FF66E003D5F37;
+					};
+					BA93ABA62A8FF670003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA93AB812A8FF66E003D5F37;
+					};
+				};
+			};
+			buildConfigurationList = BA93AB7D2A8FF66E003D5F37 /* Build configuration list for PBXProject "MyShakeMeSilly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA93AB792A8FF66E003D5F37;
+			productRefGroup = BA93AB832A8FF66E003D5F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA93AB812A8FF66E003D5F37 /* MyShakeMeSilly */,
+				BA93AB9C2A8FF670003D5F37 /* MyShakeMeSillyTests */,
+				BA93ABA62A8FF670003D5F37 /* MyShakeMeSillyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA93AB802A8FF66E003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AB952A8FF670003D5F37 /* LaunchScreen.storyboard in Resources */,
+				BA93AB922A8FF670003D5F37 /* Assets.xcassets in Resources */,
+				BA93ABBD2A8FF6E3003D5F37 /* edosz.ttf in Resources */,
+				BA93AB902A8FF66E003D5F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB9B2A8FF670003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93ABA52A8FF670003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA93AB7E2A8FF66E003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AB8D2A8FF66E003D5F37 /* ViewController.m in Sources */,
+				BA93AB872A8FF66E003D5F37 /* AppDelegate.m in Sources */,
+				BA93AB982A8FF670003D5F37 /* main.m in Sources */,
+				BA93AB8A2A8FF66E003D5F37 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB992A8FF670003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93ABA22A8FF670003D5F37 /* MyShakeMeSillyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93ABA32A8FF670003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93ABAC2A8FF670003D5F37 /* MyShakeMeSillyUITests.m in Sources */,
+				BA93ABAE2A8FF670003D5F37 /* MyShakeMeSillyUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA93AB9F2A8FF670003D5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA93AB812A8FF66E003D5F37 /* MyShakeMeSilly */;
+			targetProxy = BA93AB9E2A8FF670003D5F37 /* PBXContainerItemProxy */;
+		};
+		BA93ABA92A8FF670003D5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA93AB812A8FF66E003D5F37 /* MyShakeMeSilly */;
+			targetProxy = BA93ABA82A8FF670003D5F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA93AB8E2A8FF66E003D5F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA93AB8F2A8FF66E003D5F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA93AB932A8FF670003D5F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA93AB942A8FF670003D5F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA93ABAF2A8FF670003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA93ABB02A8FF670003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA93ABB22A8FF670003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyShakeMeSilly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MyShakeMeSilly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA93ABB32A8FF670003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyShakeMeSilly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MyShakeMeSilly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA93ABB52A8FF670003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MyShakeMeSillyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShakeMeSilly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyShakeMeSilly";
+			};
+			name = Debug;
+		};
+		BA93ABB62A8FF670003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MyShakeMeSillyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShakeMeSilly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyShakeMeSilly";
+			};
+			name = Release;
+		};
+		BA93ABB82A8FF670003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MyShakeMeSillyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyShakeMeSilly;
+			};
+			name = Debug;
+		};
+		BA93ABB92A8FF670003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MyShakeMeSillyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyShakeMeSilly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA93AB7D2A8FF66E003D5F37 /* Build configuration list for PBXProject "MyShakeMeSilly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93ABAF2A8FF670003D5F37 /* Debug */,
+				BA93ABB02A8FF670003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93ABB12A8FF670003D5F37 /* Build configuration list for PBXNativeTarget "MyShakeMeSilly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93ABB22A8FF670003D5F37 /* Debug */,
+				BA93ABB32A8FF670003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93ABB42A8FF670003D5F37 /* Build configuration list for PBXNativeTarget "MyShakeMeSillyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93ABB52A8FF670003D5F37 /* Debug */,
+				BA93ABB62A8FF670003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93ABB72A8FF670003D5F37 /* Build configuration list for PBXNativeTarget "MyShakeMeSillyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93ABB82A8FF670003D5F37 /* Debug */,
+				BA93ABB92A8FF670003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA93AB7A2A8FF66E003D5F37 /* Project object */;
+}
