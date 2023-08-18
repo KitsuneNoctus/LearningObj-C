@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA93AAC42A8FE1EA003D5F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AAC32A8FE1EA003D5F37 /* AppDelegate.m */; };
+		BA93AAC72A8FE1EA003D5F37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AAC62A8FE1EA003D5F37 /* SceneDelegate.m */; };
+		BA93AACA2A8FE1EA003D5F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AAC92A8FE1EA003D5F37 /* ViewController.m */; };
+		BA93AACD2A8FE1EA003D5F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93AACB2A8FE1EA003D5F37 /* Main.storyboard */; };
+		BA93AACF2A8FE1EC003D5F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93AACE2A8FE1EC003D5F37 /* Assets.xcassets */; };
+		BA93AAD22A8FE1EC003D5F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93AAD02A8FE1EC003D5F37 /* LaunchScreen.storyboard */; };
+		BA93AAD52A8FE1EC003D5F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AAD42A8FE1EC003D5F37 /* main.m */; };
+		BA93AADF2A8FE1EC003D5F37 /* My_Temperature_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AADE2A8FE1EC003D5F37 /* My_Temperature_CalculatorTests.m */; };
+		BA93AAE92A8FE1EC003D5F37 /* My_Temperature_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AAE82A8FE1EC003D5F37 /* My_Temperature_CalculatorUITests.m */; };
+		BA93AAEB2A8FE1EC003D5F37 /* My_Temperature_CalculatorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AAEA2A8FE1EC003D5F37 /* My_Temperature_CalculatorUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA93AADB2A8FE1EC003D5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA93AAB72A8FE1EA003D5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA93AABE2A8FE1EA003D5F37;
+			remoteInfo = "My Temperature Calculator";
+		};
+		BA93AAE52A8FE1EC003D5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA93AAB72A8FE1EA003D5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA93AABE2A8FE1EA003D5F37;
+			remoteInfo = "My Temperature Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA93AABF2A8FE1EA003D5F37 /* My Temperature Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Temperature Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AAC22A8FE1EA003D5F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA93AAC32A8FE1EA003D5F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA93AAC52A8FE1EA003D5F37 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA93AAC62A8FE1EA003D5F37 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA93AAC82A8FE1EA003D5F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA93AAC92A8FE1EA003D5F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA93AACC2A8FE1EA003D5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA93AACE2A8FE1EC003D5F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA93AAD12A8FE1EC003D5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA93AAD32A8FE1EC003D5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA93AAD42A8FE1EC003D5F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA93AADA2A8FE1EC003D5F37 /* My Temperature CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Temperature CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AADE2A8FE1EC003D5F37 /* My_Temperature_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Temperature_CalculatorTests.m; sourceTree = "<group>"; };
+		BA93AAE42A8FE1EC003D5F37 /* My Temperature CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Temperature CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AAE82A8FE1EC003D5F37 /* My_Temperature_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Temperature_CalculatorUITests.m; sourceTree = "<group>"; };
+		BA93AAEA2A8FE1EC003D5F37 /* My_Temperature_CalculatorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Temperature_CalculatorUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA93AABC2A8FE1EA003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AAD72A8FE1EC003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AAE12A8FE1EC003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA93AAB62A8FE1EA003D5F37 = {
+			isa = PBXGroup;
+			children = (
+				BA93AAC12A8FE1EA003D5F37 /* My Temperature Calculator */,
+				BA93AADD2A8FE1EC003D5F37 /* My Temperature CalculatorTests */,
+				BA93AAE72A8FE1EC003D5F37 /* My Temperature CalculatorUITests */,
+				BA93AAC02A8FE1EA003D5F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA93AAC02A8FE1EA003D5F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AABF2A8FE1EA003D5F37 /* My Temperature Calculator.app */,
+				BA93AADA2A8FE1EC003D5F37 /* My Temperature CalculatorTests.xctest */,
+				BA93AAE42A8FE1EC003D5F37 /* My Temperature CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA93AAC12A8FE1EA003D5F37 /* My Temperature Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AAC22A8FE1EA003D5F37 /* AppDelegate.h */,
+				BA93AAC32A8FE1EA003D5F37 /* AppDelegate.m */,
+				BA93AAC52A8FE1EA003D5F37 /* SceneDelegate.h */,
+				BA93AAC62A8FE1EA003D5F37 /* SceneDelegate.m */,
+				BA93AAC82A8FE1EA003D5F37 /* ViewController.h */,
+				BA93AAC92A8FE1EA003D5F37 /* ViewController.m */,
+				BA93AACB2A8FE1EA003D5F37 /* Main.storyboard */,
+				BA93AACE2A8FE1EC003D5F37 /* Assets.xcassets */,
+				BA93AAD02A8FE1EC003D5F37 /* LaunchScreen.storyboard */,
+				BA93AAD32A8FE1EC003D5F37 /* Info.plist */,
+				BA93AAD42A8FE1EC003D5F37 /* main.m */,
+			);
+			path = "My Temperature Calculator";
+			sourceTree = "<group>";
+		};
+		BA93AADD2A8FE1EC003D5F37 /* My Temperature CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AADE2A8FE1EC003D5F37 /* My_Temperature_CalculatorTests.m */,
+			);
+			path = "My Temperature CalculatorTests";
+			sourceTree = "<group>";
+		};
+		BA93AAE72A8FE1EC003D5F37 /* My Temperature CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AAE82A8FE1EC003D5F37 /* My_Temperature_CalculatorUITests.m */,
+				BA93AAEA2A8FE1EC003D5F37 /* My_Temperature_CalculatorUITestsLaunchTests.m */,
+			);
+			path = "My Temperature CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA93AABE2A8FE1EA003D5F37 /* My Temperature Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93AAEE2A8FE1EC003D5F37 /* Build configuration list for PBXNativeTarget "My Temperature Calculator" */;
+			buildPhases = (
+				BA93AABB2A8FE1EA003D5F37 /* Sources */,
+				BA93AABC2A8FE1EA003D5F37 /* Frameworks */,
+				BA93AABD2A8FE1EA003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Temperature Calculator";
+			productName = "My Temperature Calculator";
+			productReference = BA93AABF2A8FE1EA003D5F37 /* My Temperature Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA93AAD92A8FE1EC003D5F37 /* My Temperature CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93AAF12A8FE1EC003D5F37 /* Build configuration list for PBXNativeTarget "My Temperature CalculatorTests" */;
+			buildPhases = (
+				BA93AAD62A8FE1EC003D5F37 /* Sources */,
+				BA93AAD72A8FE1EC003D5F37 /* Frameworks */,
+				BA93AAD82A8FE1EC003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA93AADC2A8FE1EC003D5F37 /* PBXTargetDependency */,
+			);
+			name = "My Temperature CalculatorTests";
+			productName = "My Temperature CalculatorTests";
+			productReference = BA93AADA2A8FE1EC003D5F37 /* My Temperature CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA93AAE32A8FE1EC003D5F37 /* My Temperature CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93AAF42A8FE1EC003D5F37 /* Build configuration list for PBXNativeTarget "My Temperature CalculatorUITests" */;
+			buildPhases = (
+				BA93AAE02A8FE1EC003D5F37 /* Sources */,
+				BA93AAE12A8FE1EC003D5F37 /* Frameworks */,
+				BA93AAE22A8FE1EC003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA93AAE62A8FE1EC003D5F37 /* PBXTargetDependency */,
+			);
+			name = "My Temperature CalculatorUITests";
+			productName = "My Temperature CalculatorUITests";
+			productReference = BA93AAE42A8FE1EC003D5F37 /* My Temperature CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA93AAB72A8FE1EA003D5F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA93AABE2A8FE1EA003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA93AAD92A8FE1EC003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA93AABE2A8FE1EA003D5F37;
+					};
+					BA93AAE32A8FE1EC003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA93AABE2A8FE1EA003D5F37;
+					};
+				};
+			};
+			buildConfigurationList = BA93AABA2A8FE1EA003D5F37 /* Build configuration list for PBXProject "My Temperature Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA93AAB62A8FE1EA003D5F37;
+			productRefGroup = BA93AAC02A8FE1EA003D5F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA93AABE2A8FE1EA003D5F37 /* My Temperature Calculator */,
+				BA93AAD92A8FE1EC003D5F37 /* My Temperature CalculatorTests */,
+				BA93AAE32A8FE1EC003D5F37 /* My Temperature CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA93AABD2A8FE1EA003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AAD22A8FE1EC003D5F37 /* LaunchScreen.storyboard in Resources */,
+				BA93AACF2A8FE1EC003D5F37 /* Assets.xcassets in Resources */,
+				BA93AACD2A8FE1EA003D5F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AAD82A8FE1EC003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AAE22A8FE1EC003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA93AABB2A8FE1EA003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AACA2A8FE1EA003D5F37 /* ViewController.m in Sources */,
+				BA93AAC42A8FE1EA003D5F37 /* AppDelegate.m in Sources */,
+				BA93AAD52A8FE1EC003D5F37 /* main.m in Sources */,
+				BA93AAC72A8FE1EA003D5F37 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AAD62A8FE1EC003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AADF2A8FE1EC003D5F37 /* My_Temperature_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AAE02A8FE1EC003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AAE92A8FE1EC003D5F37 /* My_Temperature_CalculatorUITests.m in Sources */,
+				BA93AAEB2A8FE1EC003D5F37 /* My_Temperature_CalculatorUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA93AADC2A8FE1EC003D5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA93AABE2A8FE1EA003D5F37 /* My Temperature Calculator */;
+			targetProxy = BA93AADB2A8FE1EC003D5F37 /* PBXContainerItemProxy */;
+		};
+		BA93AAE62A8FE1EC003D5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA93AABE2A8FE1EA003D5F37 /* My Temperature Calculator */;
+			targetProxy = BA93AAE52A8FE1EC003D5F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA93AACB2A8FE1EA003D5F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA93AACC2A8FE1EA003D5F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA93AAD02A8FE1EC003D5F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA93AAD12A8FE1EC003D5F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA93AAEC2A8FE1EC003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA93AAED2A8FE1EC003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA93AAEF2A8FE1EC003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Temperature Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.My-Temperature-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA93AAF02A8FE1EC003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Temperature Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.My-Temperature-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA93AAF22A8FE1EC003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.My-Temperature-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Temperature Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My Temperature Calculator";
+			};
+			name = Debug;
+		};
+		BA93AAF32A8FE1EC003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.My-Temperature-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Temperature Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My Temperature Calculator";
+			};
+			name = Release;
+		};
+		BA93AAF52A8FE1EC003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.My-Temperature-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Temperature Calculator";
+			};
+			name = Debug;
+		};
+		BA93AAF62A8FE1EC003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryCalderon.My-Temperature-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Temperature Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA93AABA2A8FE1EA003D5F37 /* Build configuration list for PBXProject "My Temperature Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AAEC2A8FE1EC003D5F37 /* Debug */,
+				BA93AAED2A8FE1EC003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93AAEE2A8FE1EC003D5F37 /* Build configuration list for PBXNativeTarget "My Temperature Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AAEF2A8FE1EC003D5F37 /* Debug */,
+				BA93AAF02A8FE1EC003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93AAF12A8FE1EC003D5F37 /* Build configuration list for PBXNativeTarget "My Temperature CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AAF22A8FE1EC003D5F37 /* Debug */,
+				BA93AAF32A8FE1EC003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93AAF42A8FE1EC003D5F37 /* Build configuration list for PBXNativeTarget "My Temperature CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AAF52A8FE1EC003D5F37 /* Debug */,
+				BA93AAF62A8FE1EC003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA93AAB72A8FE1EA003D5F37 /* Project object */;
+}
