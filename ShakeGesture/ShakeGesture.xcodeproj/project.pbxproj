@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA93AB462A8FF101003D5F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB452A8FF101003D5F37 /* AppDelegate.m */; };
+		BA93AB492A8FF101003D5F37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB482A8FF101003D5F37 /* SceneDelegate.m */; };
+		BA93AB4C2A8FF101003D5F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB4B2A8FF101003D5F37 /* ViewController.m */; };
+		BA93AB4F2A8FF101003D5F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93AB4D2A8FF101003D5F37 /* Main.storyboard */; };
+		BA93AB512A8FF102003D5F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93AB502A8FF102003D5F37 /* Assets.xcassets */; };
+		BA93AB542A8FF102003D5F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93AB522A8FF102003D5F37 /* LaunchScreen.storyboard */; };
+		BA93AB572A8FF102003D5F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB562A8FF102003D5F37 /* main.m */; };
+		BA93AB612A8FF102003D5F37 /* ShakeGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB602A8FF102003D5F37 /* ShakeGestureTests.m */; };
+		BA93AB6B2A8FF102003D5F37 /* ShakeGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB6A2A8FF102003D5F37 /* ShakeGestureUITests.m */; };
+		BA93AB6D2A8FF102003D5F37 /* ShakeGestureUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA93AB6C2A8FF102003D5F37 /* ShakeGestureUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA93AB5D2A8FF102003D5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA93AB392A8FF101003D5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA93AB402A8FF101003D5F37;
+			remoteInfo = ShakeGesture;
+		};
+		BA93AB672A8FF102003D5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA93AB392A8FF101003D5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA93AB402A8FF101003D5F37;
+			remoteInfo = ShakeGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA93AB412A8FF101003D5F37 /* ShakeGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AB442A8FF101003D5F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA93AB452A8FF101003D5F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA93AB472A8FF101003D5F37 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA93AB482A8FF101003D5F37 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA93AB4A2A8FF101003D5F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA93AB4B2A8FF101003D5F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA93AB4E2A8FF101003D5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA93AB502A8FF102003D5F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA93AB532A8FF102003D5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA93AB552A8FF102003D5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA93AB562A8FF102003D5F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA93AB5C2A8FF102003D5F37 /* ShakeGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AB602A8FF102003D5F37 /* ShakeGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeGestureTests.m; sourceTree = "<group>"; };
+		BA93AB662A8FF102003D5F37 /* ShakeGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA93AB6A2A8FF102003D5F37 /* ShakeGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeGestureUITests.m; sourceTree = "<group>"; };
+		BA93AB6C2A8FF102003D5F37 /* ShakeGestureUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeGestureUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA93AB3E2A8FF101003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB592A8FF102003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB632A8FF102003D5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA93AB382A8FF101003D5F37 = {
+			isa = PBXGroup;
+			children = (
+				BA93AB432A8FF101003D5F37 /* ShakeGesture */,
+				BA93AB5F2A8FF102003D5F37 /* ShakeGestureTests */,
+				BA93AB692A8FF102003D5F37 /* ShakeGestureUITests */,
+				BA93AB422A8FF101003D5F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA93AB422A8FF101003D5F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AB412A8FF101003D5F37 /* ShakeGesture.app */,
+				BA93AB5C2A8FF102003D5F37 /* ShakeGestureTests.xctest */,
+				BA93AB662A8FF102003D5F37 /* ShakeGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA93AB432A8FF101003D5F37 /* ShakeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AB442A8FF101003D5F37 /* AppDelegate.h */,
+				BA93AB452A8FF101003D5F37 /* AppDelegate.m */,
+				BA93AB472A8FF101003D5F37 /* SceneDelegate.h */,
+				BA93AB482A8FF101003D5F37 /* SceneDelegate.m */,
+				BA93AB4A2A8FF101003D5F37 /* ViewController.h */,
+				BA93AB4B2A8FF101003D5F37 /* ViewController.m */,
+				BA93AB4D2A8FF101003D5F37 /* Main.storyboard */,
+				BA93AB502A8FF102003D5F37 /* Assets.xcassets */,
+				BA93AB522A8FF102003D5F37 /* LaunchScreen.storyboard */,
+				BA93AB552A8FF102003D5F37 /* Info.plist */,
+				BA93AB562A8FF102003D5F37 /* main.m */,
+			);
+			path = ShakeGesture;
+			sourceTree = "<group>";
+		};
+		BA93AB5F2A8FF102003D5F37 /* ShakeGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AB602A8FF102003D5F37 /* ShakeGestureTests.m */,
+			);
+			path = ShakeGestureTests;
+			sourceTree = "<group>";
+		};
+		BA93AB692A8FF102003D5F37 /* ShakeGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA93AB6A2A8FF102003D5F37 /* ShakeGestureUITests.m */,
+				BA93AB6C2A8FF102003D5F37 /* ShakeGestureUITestsLaunchTests.m */,
+			);
+			path = ShakeGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA93AB402A8FF101003D5F37 /* ShakeGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93AB702A8FF102003D5F37 /* Build configuration list for PBXNativeTarget "ShakeGesture" */;
+			buildPhases = (
+				BA93AB3D2A8FF101003D5F37 /* Sources */,
+				BA93AB3E2A8FF101003D5F37 /* Frameworks */,
+				BA93AB3F2A8FF101003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeGesture;
+			productName = ShakeGesture;
+			productReference = BA93AB412A8FF101003D5F37 /* ShakeGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA93AB5B2A8FF102003D5F37 /* ShakeGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93AB732A8FF102003D5F37 /* Build configuration list for PBXNativeTarget "ShakeGestureTests" */;
+			buildPhases = (
+				BA93AB582A8FF102003D5F37 /* Sources */,
+				BA93AB592A8FF102003D5F37 /* Frameworks */,
+				BA93AB5A2A8FF102003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA93AB5E2A8FF102003D5F37 /* PBXTargetDependency */,
+			);
+			name = ShakeGestureTests;
+			productName = ShakeGestureTests;
+			productReference = BA93AB5C2A8FF102003D5F37 /* ShakeGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA93AB652A8FF102003D5F37 /* ShakeGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93AB762A8FF102003D5F37 /* Build configuration list for PBXNativeTarget "ShakeGestureUITests" */;
+			buildPhases = (
+				BA93AB622A8FF102003D5F37 /* Sources */,
+				BA93AB632A8FF102003D5F37 /* Frameworks */,
+				BA93AB642A8FF102003D5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA93AB682A8FF102003D5F37 /* PBXTargetDependency */,
+			);
+			name = ShakeGestureUITests;
+			productName = ShakeGestureUITests;
+			productReference = BA93AB662A8FF102003D5F37 /* ShakeGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA93AB392A8FF101003D5F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA93AB402A8FF101003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA93AB5B2A8FF102003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA93AB402A8FF101003D5F37;
+					};
+					BA93AB652A8FF102003D5F37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA93AB402A8FF101003D5F37;
+					};
+				};
+			};
+			buildConfigurationList = BA93AB3C2A8FF101003D5F37 /* Build configuration list for PBXProject "ShakeGesture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA93AB382A8FF101003D5F37;
+			productRefGroup = BA93AB422A8FF101003D5F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA93AB402A8FF101003D5F37 /* ShakeGesture */,
+				BA93AB5B2A8FF102003D5F37 /* ShakeGestureTests */,
+				BA93AB652A8FF102003D5F37 /* ShakeGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA93AB3F2A8FF101003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AB542A8FF102003D5F37 /* LaunchScreen.storyboard in Resources */,
+				BA93AB512A8FF102003D5F37 /* Assets.xcassets in Resources */,
+				BA93AB4F2A8FF101003D5F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB5A2A8FF102003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB642A8FF102003D5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA93AB3D2A8FF101003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AB4C2A8FF101003D5F37 /* ViewController.m in Sources */,
+				BA93AB462A8FF101003D5F37 /* AppDelegate.m in Sources */,
+				BA93AB572A8FF102003D5F37 /* main.m in Sources */,
+				BA93AB492A8FF101003D5F37 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB582A8FF102003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AB612A8FF102003D5F37 /* ShakeGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA93AB622A8FF102003D5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93AB6D2A8FF102003D5F37 /* ShakeGestureUITestsLaunchTests.m in Sources */,
+				BA93AB6B2A8FF102003D5F37 /* ShakeGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA93AB5E2A8FF102003D5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA93AB402A8FF101003D5F37 /* ShakeGesture */;
+			targetProxy = BA93AB5D2A8FF102003D5F37 /* PBXContainerItemProxy */;
+		};
+		BA93AB682A8FF102003D5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA93AB402A8FF101003D5F37 /* ShakeGesture */;
+			targetProxy = BA93AB672A8FF102003D5F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA93AB4D2A8FF101003D5F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA93AB4E2A8FF101003D5F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA93AB522A8FF102003D5F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA93AB532A8FF102003D5F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA93AB6E2A8FF102003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA93AB6F2A8FF102003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA93AB712A8FF102003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShakeGesture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.ShakeGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA93AB722A8FF102003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShakeGesture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.ShakeGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA93AB742A8FF102003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.ShakeGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeGesture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShakeGesture";
+			};
+			name = Debug;
+		};
+		BA93AB752A8FF102003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.ShakeGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeGesture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShakeGesture";
+			};
+			name = Release;
+		};
+		BA93AB772A8FF102003D5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.ShakeGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShakeGesture;
+			};
+			name = Debug;
+		};
+		BA93AB782A8FF102003D5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.ShakeGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShakeGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA93AB3C2A8FF101003D5F37 /* Build configuration list for PBXProject "ShakeGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AB6E2A8FF102003D5F37 /* Debug */,
+				BA93AB6F2A8FF102003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93AB702A8FF102003D5F37 /* Build configuration list for PBXNativeTarget "ShakeGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AB712A8FF102003D5F37 /* Debug */,
+				BA93AB722A8FF102003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93AB732A8FF102003D5F37 /* Build configuration list for PBXNativeTarget "ShakeGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AB742A8FF102003D5F37 /* Debug */,
+				BA93AB752A8FF102003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93AB762A8FF102003D5F37 /* Build configuration list for PBXNativeTarget "ShakeGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA93AB772A8FF102003D5F37 /* Debug */,
+				BA93AB782A8FF102003D5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA93AB392A8FF101003D5F37 /* Project object */;
+}
