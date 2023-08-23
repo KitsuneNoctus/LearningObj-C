@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3002052A96C8B60047949D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3002042A96C8B60047949D /* AppDelegate.m */; };
+		BA3002082A96C8B60047949D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3002072A96C8B60047949D /* SceneDelegate.m */; };
+		BA30020B2A96C8B60047949D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA30020A2A96C8B60047949D /* ViewController.m */; };
+		BA30020E2A96C8B60047949D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA30020C2A96C8B60047949D /* Main.storyboard */; };
+		BA3002102A96C8B80047949D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA30020F2A96C8B80047949D /* Assets.xcassets */; };
+		BA3002132A96C8B80047949D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3002112A96C8B80047949D /* LaunchScreen.storyboard */; };
+		BA3002162A96C8B80047949D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3002152A96C8B80047949D /* main.m */; };
+		BA3002202A96C8B80047949D /* MySimonSaysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA30021F2A96C8B80047949D /* MySimonSaysTests.m */; };
+		BA30022A2A96C8B80047949D /* MySimonSaysUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3002292A96C8B80047949D /* MySimonSaysUITests.m */; };
+		BA30022C2A96C8B80047949D /* MySimonSaysUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA30022B2A96C8B80047949D /* MySimonSaysUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA30021C2A96C8B80047949D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3001F82A96C8B60047949D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3001FF2A96C8B60047949D;
+			remoteInfo = MySimonSays;
+		};
+		BA3002262A96C8B80047949D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3001F82A96C8B60047949D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3001FF2A96C8B60047949D;
+			remoteInfo = MySimonSays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3002002A96C8B60047949D /* MySimonSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimonSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3002032A96C8B60047949D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA3002042A96C8B60047949D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA3002062A96C8B60047949D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA3002072A96C8B60047949D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA3002092A96C8B60047949D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA30020A2A96C8B60047949D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA30020D2A96C8B60047949D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA30020F2A96C8B80047949D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3002122A96C8B80047949D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3002142A96C8B80047949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3002152A96C8B80047949D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA30021B2A96C8B80047949D /* MySimonSaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimonSaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA30021F2A96C8B80047949D /* MySimonSaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimonSaysTests.m; sourceTree = "<group>"; };
+		BA3002252A96C8B80047949D /* MySimonSaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimonSaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3002292A96C8B80047949D /* MySimonSaysUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimonSaysUITests.m; sourceTree = "<group>"; };
+		BA30022B2A96C8B80047949D /* MySimonSaysUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimonSaysUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3001FD2A96C8B60047949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3002182A96C8B80047949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3002222A96C8B80047949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3001F72A96C8B60047949D = {
+			isa = PBXGroup;
+			children = (
+				BA3002022A96C8B60047949D /* MySimonSays */,
+				BA30021E2A96C8B80047949D /* MySimonSaysTests */,
+				BA3002282A96C8B80047949D /* MySimonSaysUITests */,
+				BA3002012A96C8B60047949D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3002012A96C8B60047949D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3002002A96C8B60047949D /* MySimonSays.app */,
+				BA30021B2A96C8B80047949D /* MySimonSaysTests.xctest */,
+				BA3002252A96C8B80047949D /* MySimonSaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3002022A96C8B60047949D /* MySimonSays */ = {
+			isa = PBXGroup;
+			children = (
+				BA3002032A96C8B60047949D /* AppDelegate.h */,
+				BA3002042A96C8B60047949D /* AppDelegate.m */,
+				BA3002062A96C8B60047949D /* SceneDelegate.h */,
+				BA3002072A96C8B60047949D /* SceneDelegate.m */,
+				BA3002092A96C8B60047949D /* ViewController.h */,
+				BA30020A2A96C8B60047949D /* ViewController.m */,
+				BA30020C2A96C8B60047949D /* Main.storyboard */,
+				BA30020F2A96C8B80047949D /* Assets.xcassets */,
+				BA3002112A96C8B80047949D /* LaunchScreen.storyboard */,
+				BA3002142A96C8B80047949D /* Info.plist */,
+				BA3002152A96C8B80047949D /* main.m */,
+			);
+			path = MySimonSays;
+			sourceTree = "<group>";
+		};
+		BA30021E2A96C8B80047949D /* MySimonSaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA30021F2A96C8B80047949D /* MySimonSaysTests.m */,
+			);
+			path = MySimonSaysTests;
+			sourceTree = "<group>";
+		};
+		BA3002282A96C8B80047949D /* MySimonSaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3002292A96C8B80047949D /* MySimonSaysUITests.m */,
+				BA30022B2A96C8B80047949D /* MySimonSaysUITestsLaunchTests.m */,
+			);
+			path = MySimonSaysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3001FF2A96C8B60047949D /* MySimonSays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA30022F2A96C8B80047949D /* Build configuration list for PBXNativeTarget "MySimonSays" */;
+			buildPhases = (
+				BA3001FC2A96C8B60047949D /* Sources */,
+				BA3001FD2A96C8B60047949D /* Frameworks */,
+				BA3001FE2A96C8B60047949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySimonSays;
+			productName = MySimonSays;
+			productReference = BA3002002A96C8B60047949D /* MySimonSays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA30021A2A96C8B80047949D /* MySimonSaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3002322A96C8B80047949D /* Build configuration list for PBXNativeTarget "MySimonSaysTests" */;
+			buildPhases = (
+				BA3002172A96C8B80047949D /* Sources */,
+				BA3002182A96C8B80047949D /* Frameworks */,
+				BA3002192A96C8B80047949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA30021D2A96C8B80047949D /* PBXTargetDependency */,
+			);
+			name = MySimonSaysTests;
+			productName = MySimonSaysTests;
+			productReference = BA30021B2A96C8B80047949D /* MySimonSaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA3002242A96C8B80047949D /* MySimonSaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3002352A96C8B80047949D /* Build configuration list for PBXNativeTarget "MySimonSaysUITests" */;
+			buildPhases = (
+				BA3002212A96C8B80047949D /* Sources */,
+				BA3002222A96C8B80047949D /* Frameworks */,
+				BA3002232A96C8B80047949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3002272A96C8B80047949D /* PBXTargetDependency */,
+			);
+			name = MySimonSaysUITests;
+			productName = MySimonSaysUITests;
+			productReference = BA3002252A96C8B80047949D /* MySimonSaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3001F82A96C8B60047949D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA3001FF2A96C8B60047949D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA30021A2A96C8B80047949D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA3001FF2A96C8B60047949D;
+					};
+					BA3002242A96C8B80047949D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA3001FF2A96C8B60047949D;
+					};
+				};
+			};
+			buildConfigurationList = BA3001FB2A96C8B60047949D /* Build configuration list for PBXProject "MySimonSays" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3001F72A96C8B60047949D;
+			productRefGroup = BA3002012A96C8B60047949D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3001FF2A96C8B60047949D /* MySimonSays */,
+				BA30021A2A96C8B80047949D /* MySimonSaysTests */,
+				BA3002242A96C8B80047949D /* MySimonSaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3001FE2A96C8B60047949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3002132A96C8B80047949D /* LaunchScreen.storyboard in Resources */,
+				BA3002102A96C8B80047949D /* Assets.xcassets in Resources */,
+				BA30020E2A96C8B60047949D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3002192A96C8B80047949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3002232A96C8B80047949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3001FC2A96C8B60047949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA30020B2A96C8B60047949D /* ViewController.m in Sources */,
+				BA3002052A96C8B60047949D /* AppDelegate.m in Sources */,
+				BA3002162A96C8B80047949D /* main.m in Sources */,
+				BA3002082A96C8B60047949D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3002172A96C8B80047949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3002202A96C8B80047949D /* MySimonSaysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3002212A96C8B80047949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA30022A2A96C8B80047949D /* MySimonSaysUITests.m in Sources */,
+				BA30022C2A96C8B80047949D /* MySimonSaysUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA30021D2A96C8B80047949D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3001FF2A96C8B60047949D /* MySimonSays */;
+			targetProxy = BA30021C2A96C8B80047949D /* PBXContainerItemProxy */;
+		};
+		BA3002272A96C8B80047949D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3001FF2A96C8B60047949D /* MySimonSays */;
+			targetProxy = BA3002262A96C8B80047949D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA30020C2A96C8B60047949D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA30020D2A96C8B60047949D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3002112A96C8B80047949D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3002122A96C8B80047949D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA30022D2A96C8B80047949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA30022E2A96C8B80047949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3002302A96C8B80047949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySimonSays/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MySimonSays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3002312A96C8B80047949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySimonSays/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MySimonSays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA3002332A96C8B80047949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MySimonSaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySimonSays.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySimonSays";
+			};
+			name = Debug;
+		};
+		BA3002342A96C8B80047949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MySimonSaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySimonSays.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySimonSays";
+			};
+			name = Release;
+		};
+		BA3002362A96C8B80047949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MySimonSaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySimonSays;
+			};
+			name = Debug;
+		};
+		BA3002372A96C8B80047949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HenryCalderon.MySimonSaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySimonSays;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3001FB2A96C8B60047949D /* Build configuration list for PBXProject "MySimonSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA30022D2A96C8B80047949D /* Debug */,
+				BA30022E2A96C8B80047949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA30022F2A96C8B80047949D /* Build configuration list for PBXNativeTarget "MySimonSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3002302A96C8B80047949D /* Debug */,
+				BA3002312A96C8B80047949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3002322A96C8B80047949D /* Build configuration list for PBXNativeTarget "MySimonSaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3002332A96C8B80047949D /* Debug */,
+				BA3002342A96C8B80047949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3002352A96C8B80047949D /* Build configuration list for PBXNativeTarget "MySimonSaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3002362A96C8B80047949D /* Debug */,
+				BA3002372A96C8B80047949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3001F82A96C8B60047949D /* Project object */;
+}
