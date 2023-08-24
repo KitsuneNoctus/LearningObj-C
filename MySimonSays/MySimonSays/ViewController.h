@@ -12,9 +12,9 @@
     NSTimer *timer;
     NSTimer *simonTimer;
     
-    int time;
-    int score;
-    int mode;
+    int timeInt;
+    int scoreInt;
+    int modeInt;
     
 }
 
