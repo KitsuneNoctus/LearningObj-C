@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Jp-ev-HVA">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZlU-MU-zZp">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SJ-XZ-vFc">
+                                                <rect key="frame" x="8" y="409" width="377" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            </button>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2bY-g3-6Dl">
+                                                <rect key="frame" x="8" y="779" width="377" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="First"/>
+                                                    <segment title="Second"/>
+                                                </segments>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzn-Ic-p4h">
+                                                <rect key="frame" x="8" y="67" width="377" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Sn-ms-SsX">
+                                                <rect key="frame" x="173" y="1000" width="49" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </switch>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZlU-MU-zZp" firstAttribute="leading" secondItem="8Jp-ev-HVA" secondAttribute="leading" id="5rg-M5-kbp"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZlU-MU-zZp" secondAttribute="bottom" id="A03-Dt-sTd"/>
+                                    <constraint firstItem="ZlU-MU-zZp" firstAttribute="bottom" secondItem="JxO-NZ-qTM" secondAttribute="bottom" id="IP4-ho-4hh"/>
+                                    <constraint firstItem="ZlU-MU-zZp" firstAttribute="centerX" secondItem="8Jp-ev-HVA" secondAttribute="centerX" id="X0U-H3-t5d"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZlU-MU-zZp" secondAttribute="trailing" id="XQi-SZ-z2j"/>
+                                    <constraint firstItem="ZlU-MU-zZp" firstAttribute="bottom" secondItem="8Jp-ev-HVA" secondAttribute="bottom" id="pao-al-waf"/>
+                                    <constraint firstItem="ZlU-MU-zZp" firstAttribute="top" secondItem="8Jp-ev-HVA" secondAttribute="top" id="wwc-f7-GaL"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="O6M-G9-KgX"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="JxO-NZ-qTM"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Jp-ev-HVA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7fC-3i-DTz"/>
+                            <constraint firstAttribute="trailing" secondItem="8Jp-ev-HVA" secondAttribute="trailing" id="DHy-h9-QN4"/>
+                            <constraint firstAttribute="bottom" secondItem="8Jp-ev-HVA" secondAttribute="bottom" id="dEl-TJ-a4t"/>
+                            <constraint firstItem="8Jp-ev-HVA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gJs-BA-TQ6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="8Jp-ev-HVA" id="dka-9f-8bW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
