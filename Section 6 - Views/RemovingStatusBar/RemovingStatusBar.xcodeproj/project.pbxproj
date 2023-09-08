@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2D40602AAB8E7D00433354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D405F2AAB8E7D00433354 /* AppDelegate.m */; };
+		BA2D40632AAB8E7D00433354 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D40622AAB8E7D00433354 /* SceneDelegate.m */; };
+		BA2D40662AAB8E7D00433354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D40652AAB8E7D00433354 /* ViewController.m */; };
+		BA2D40692AAB8E7D00433354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2D40672AAB8E7D00433354 /* Main.storyboard */; };
+		BA2D406B2AAB8E7E00433354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2D406A2AAB8E7E00433354 /* Assets.xcassets */; };
+		BA2D406E2AAB8E7E00433354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2D406C2AAB8E7E00433354 /* LaunchScreen.storyboard */; };
+		BA2D40712AAB8E7E00433354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D40702AAB8E7E00433354 /* main.m */; };
+		BA2D407B2AAB8E7F00433354 /* RemovingStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D407A2AAB8E7F00433354 /* RemovingStatusBarTests.m */; };
+		BA2D40852AAB8E7F00433354 /* RemovingStatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D40842AAB8E7F00433354 /* RemovingStatusBarUITests.m */; };
+		BA2D40872AAB8E7F00433354 /* RemovingStatusBarUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D40862AAB8E7F00433354 /* RemovingStatusBarUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2D40772AAB8E7F00433354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2D40532AAB8E7D00433354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2D405A2AAB8E7D00433354;
+			remoteInfo = RemovingStatusBar;
+		};
+		BA2D40812AAB8E7F00433354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2D40532AAB8E7D00433354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2D405A2AAB8E7D00433354;
+			remoteInfo = RemovingStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2D405B2AAB8E7D00433354 /* RemovingStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemovingStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2D405E2AAB8E7D00433354 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA2D405F2AAB8E7D00433354 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA2D40612AAB8E7D00433354 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA2D40622AAB8E7D00433354 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA2D40642AAB8E7D00433354 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA2D40652AAB8E7D00433354 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA2D40682AAB8E7D00433354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2D406A2AAB8E7E00433354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2D406D2AAB8E7E00433354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA2D406F2AAB8E7E00433354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2D40702AAB8E7E00433354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA2D40762AAB8E7F00433354 /* RemovingStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemovingStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2D407A2AAB8E7F00433354 /* RemovingStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemovingStatusBarTests.m; sourceTree = "<group>"; };
+		BA2D40802AAB8E7F00433354 /* RemovingStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemovingStatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2D40842AAB8E7F00433354 /* RemovingStatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemovingStatusBarUITests.m; sourceTree = "<group>"; };
+		BA2D40862AAB8E7F00433354 /* RemovingStatusBarUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemovingStatusBarUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2D40582AAB8E7D00433354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2D40732AAB8E7F00433354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2D407D2AAB8E7F00433354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2D40522AAB8E7D00433354 = {
+			isa = PBXGroup;
+			children = (
+				BA2D405D2AAB8E7D00433354 /* RemovingStatusBar */,
+				BA2D40792AAB8E7F00433354 /* RemovingStatusBarTests */,
+				BA2D40832AAB8E7F00433354 /* RemovingStatusBarUITests */,
+				BA2D405C2AAB8E7D00433354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2D405C2AAB8E7D00433354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2D405B2AAB8E7D00433354 /* RemovingStatusBar.app */,
+				BA2D40762AAB8E7F00433354 /* RemovingStatusBarTests.xctest */,
+				BA2D40802AAB8E7F00433354 /* RemovingStatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2D405D2AAB8E7D00433354 /* RemovingStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				BA2D405E2AAB8E7D00433354 /* AppDelegate.h */,
+				BA2D405F2AAB8E7D00433354 /* AppDelegate.m */,
+				BA2D40612AAB8E7D00433354 /* SceneDelegate.h */,
+				BA2D40622AAB8E7D00433354 /* SceneDelegate.m */,
+				BA2D40642AAB8E7D00433354 /* ViewController.h */,
+				BA2D40652AAB8E7D00433354 /* ViewController.m */,
+				BA2D40672AAB8E7D00433354 /* Main.storyboard */,
+				BA2D406A2AAB8E7E00433354 /* Assets.xcassets */,
+				BA2D406C2AAB8E7E00433354 /* LaunchScreen.storyboard */,
+				BA2D406F2AAB8E7E00433354 /* Info.plist */,
+				BA2D40702AAB8E7E00433354 /* main.m */,
+			);
+			path = RemovingStatusBar;
+			sourceTree = "<group>";
+		};
+		BA2D40792AAB8E7F00433354 /* RemovingStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2D407A2AAB8E7F00433354 /* RemovingStatusBarTests.m */,
+			);
+			path = RemovingStatusBarTests;
+			sourceTree = "<group>";
+		};
+		BA2D40832AAB8E7F00433354 /* RemovingStatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2D40842AAB8E7F00433354 /* RemovingStatusBarUITests.m */,
+				BA2D40862AAB8E7F00433354 /* RemovingStatusBarUITestsLaunchTests.m */,
+			);
+			path = RemovingStatusBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2D405A2AAB8E7D00433354 /* RemovingStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2D408A2AAB8E7F00433354 /* Build configuration list for PBXNativeTarget "RemovingStatusBar" */;
+			buildPhases = (
+				BA2D40572AAB8E7D00433354 /* Sources */,
+				BA2D40582AAB8E7D00433354 /* Frameworks */,
+				BA2D40592AAB8E7D00433354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemovingStatusBar;
+			productName = RemovingStatusBar;
+			productReference = BA2D405B2AAB8E7D00433354 /* RemovingStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2D40752AAB8E7F00433354 /* RemovingStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2D408D2AAB8E7F00433354 /* Build configuration list for PBXNativeTarget "RemovingStatusBarTests" */;
+			buildPhases = (
+				BA2D40722AAB8E7F00433354 /* Sources */,
+				BA2D40732AAB8E7F00433354 /* Frameworks */,
+				BA2D40742AAB8E7F00433354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2D40782AAB8E7F00433354 /* PBXTargetDependency */,
+			);
+			name = RemovingStatusBarTests;
+			productName = RemovingStatusBarTests;
+			productReference = BA2D40762AAB8E7F00433354 /* RemovingStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA2D407F2AAB8E7F00433354 /* RemovingStatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2D40902AAB8E7F00433354 /* Build configuration list for PBXNativeTarget "RemovingStatusBarUITests" */;
+			buildPhases = (
+				BA2D407C2AAB8E7F00433354 /* Sources */,
+				BA2D407D2AAB8E7F00433354 /* Frameworks */,
+				BA2D407E2AAB8E7F00433354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2D40822AAB8E7F00433354 /* PBXTargetDependency */,
+			);
+			name = RemovingStatusBarUITests;
+			productName = RemovingStatusBarUITests;
+			productReference = BA2D40802AAB8E7F00433354 /* RemovingStatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2D40532AAB8E7D00433354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA2D405A2AAB8E7D00433354 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA2D40752AAB8E7F00433354 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA2D405A2AAB8E7D00433354;
+					};
+					BA2D407F2AAB8E7F00433354 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA2D405A2AAB8E7D00433354;
+					};
+				};
+			};
+			buildConfigurationList = BA2D40562AAB8E7D00433354 /* Build configuration list for PBXProject "RemovingStatusBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2D40522AAB8E7D00433354;
+			productRefGroup = BA2D405C2AAB8E7D00433354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2D405A2AAB8E7D00433354 /* RemovingStatusBar */,
+				BA2D40752AAB8E7F00433354 /* RemovingStatusBarTests */,
+				BA2D407F2AAB8E7F00433354 /* RemovingStatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2D40592AAB8E7D00433354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D406E2AAB8E7E00433354 /* LaunchScreen.storyboard in Resources */,
+				BA2D406B2AAB8E7E00433354 /* Assets.xcassets in Resources */,
+				BA2D40692AAB8E7D00433354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2D40742AAB8E7F00433354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2D407E2AAB8E7F00433354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2D40572AAB8E7D00433354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D40662AAB8E7D00433354 /* ViewController.m in Sources */,
+				BA2D40602AAB8E7D00433354 /* AppDelegate.m in Sources */,
+				BA2D40712AAB8E7E00433354 /* main.m in Sources */,
+				BA2D40632AAB8E7D00433354 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2D40722AAB8E7F00433354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D407B2AAB8E7F00433354 /* RemovingStatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2D407C2AAB8E7F00433354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D40852AAB8E7F00433354 /* RemovingStatusBarUITests.m in Sources */,
+				BA2D40872AAB8E7F00433354 /* RemovingStatusBarUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2D40782AAB8E7F00433354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2D405A2AAB8E7D00433354 /* RemovingStatusBar */;
+			targetProxy = BA2D40772AAB8E7F00433354 /* PBXContainerItemProxy */;
+		};
+		BA2D40822AAB8E7F00433354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2D405A2AAB8E7D00433354 /* RemovingStatusBar */;
+			targetProxy = BA2D40812AAB8E7F00433354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2D40672AAB8E7D00433354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2D40682AAB8E7D00433354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA2D406C2AAB8E7E00433354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2D406D2AAB8E7E00433354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2D40882AAB8E7F00433354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA2D40892AAB8E7F00433354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2D408B2AAB8E7F00433354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemovingStatusBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.RemovingStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2D408C2AAB8E7F00433354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemovingStatusBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.RemovingStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA2D408E2AAB8E7F00433354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.RemovingStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemovingStatusBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RemovingStatusBar";
+			};
+			name = Debug;
+		};
+		BA2D408F2AAB8E7F00433354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.RemovingStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemovingStatusBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RemovingStatusBar";
+			};
+			name = Release;
+		};
+		BA2D40912AAB8E7F00433354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.RemovingStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemovingStatusBar;
+			};
+			name = Debug;
+		};
+		BA2D40922AAB8E7F00433354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.RemovingStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemovingStatusBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2D40562AAB8E7D00433354 /* Build configuration list for PBXProject "RemovingStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2D40882AAB8E7F00433354 /* Debug */,
+				BA2D40892AAB8E7F00433354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2D408A2AAB8E7F00433354 /* Build configuration list for PBXNativeTarget "RemovingStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2D408B2AAB8E7F00433354 /* Debug */,
+				BA2D408C2AAB8E7F00433354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2D408D2AAB8E7F00433354 /* Build configuration list for PBXNativeTarget "RemovingStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2D408E2AAB8E7F00433354 /* Debug */,
+				BA2D408F2AAB8E7F00433354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2D40902AAB8E7F00433354 /* Build configuration list for PBXNativeTarget "RemovingStatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2D40912AAB8E7F00433354 /* Debug */,
+				BA2D40922AAB8E7F00433354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2D40532AAB8E7D00433354 /* Project object */;
+}
