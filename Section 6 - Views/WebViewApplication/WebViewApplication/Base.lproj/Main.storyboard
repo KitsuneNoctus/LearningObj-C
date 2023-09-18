@@ -1,24 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="AgY-JU-MmG">
+                                <rect key="frame" x="0.0" y="59" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="f83-Vw-qgW"/>
+                                </connections>
+                            </searchBar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k92-cL-cvX">
+                                <rect key="frame" x="0.0" y="115" width="393" height="654"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Y7e-rx-fVA">
+                                <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                                <color key="color" systemColor="systemRedColor"/>
+                            </activityIndicatorView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTf-Rn-m1X">
+                                <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="zM9-n8-dCL">
+                                        <connections>
+                                            <action selector="stopLoading" destination="k92-cL-cvX" id="sXF-Bf-mPc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="refresh" id="G3h-nI-Z9F">
+                                        <connections>
+                                            <action selector="reload" destination="k92-cL-cvX" id="IeC-IY-jjd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="LlD-1p-FV9"/>
+                                    <barButtonItem systemItem="rewind" id="MuW-sq-OjS">
+                                        <connections>
+                                            <action selector="goBack" destination="k92-cL-cvX" id="DFG-vp-TJI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="NMD-74-uLf">
+                                        <connections>
+                                            <action selector="goForward" destination="k92-cL-cvX" id="BtB-h3-HEW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y7e-rx-fVA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="83F-Jq-CVs"/>
+                            <constraint firstItem="k92-cL-cvX" firstAttribute="top" secondItem="AgY-JU-MmG" secondAttribute="bottom" id="8UP-zm-ewt"/>
+                            <constraint firstItem="AgY-JU-MmG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NCz-OL-ET9"/>
+                            <constraint firstItem="WTf-Rn-m1X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NrE-ni-zBR"/>
+                            <constraint firstItem="AgY-JU-MmG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="59" id="cdC-si-1cx"/>
+                            <constraint firstAttribute="bottom" secondItem="WTf-Rn-m1X" secondAttribute="bottom" constant="34" id="dLY-ym-4Uq"/>
+                            <constraint firstItem="WTf-Rn-m1X" firstAttribute="top" secondItem="k92-cL-cvX" secondAttribute="bottom" id="dYb-Fr-bB9"/>
+                            <constraint firstItem="k92-cL-cvX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hw2-VW-brS"/>
+                            <constraint firstItem="AgY-JU-MmG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nmN-m8-hRU"/>
+                            <constraint firstItem="WTf-Rn-m1X" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t7l-GB-L8a"/>
+                            <constraint firstItem="Y7e-rx-fVA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uhY-WN-6hb"/>
+                            <constraint firstItem="k92-cL-cvX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yGU-dG-VED"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Y7e-rx-fVA" id="Zar-eB-Gkf"/>
+                        <outlet property="searchBar" destination="AgY-JU-MmG" id="B53-QU-0kc"/>
+                        <outlet property="webView" destination="k92-cL-cvX" id="j1H-yz-j3h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
