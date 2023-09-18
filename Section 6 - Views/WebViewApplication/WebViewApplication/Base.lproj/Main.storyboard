@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="f83-Vw-qgW"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="y4i-KL-n0r"/>
                                 </connections>
                             </searchBar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k92-cL-cvX">

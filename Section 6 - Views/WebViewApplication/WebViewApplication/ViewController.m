@@ -31,5 +31,9 @@
     }
 }
 
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://%@", self.searchBar.text]]]];
+}
+
 
 @end
