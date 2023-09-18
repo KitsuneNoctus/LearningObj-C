@@ -17,6 +17,7 @@
 		BAAD29C02AB8F84800B5A856 /* MyMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD29BF2AB8F84800B5A856 /* MyMapViewTests.m */; };
 		BAAD29CA2AB8F84800B5A856 /* MyMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD29C92AB8F84800B5A856 /* MyMapViewUITests.m */; };
 		BAAD29CC2AB8F84800B5A856 /* MyMapViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD29CB2AB8F84800B5A856 /* MyMapViewUITestsLaunchTests.m */; };
+		BAAD29DA2AB8FF0100B5A856 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD29D92AB8FF0100B5A856 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BAAD29C52AB8F84800B5A856 /* MyMapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAD29C92AB8F84800B5A856 /* MyMapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapViewUITests.m; sourceTree = "<group>"; };
 		BAAD29CB2AB8F84800B5A856 /* MyMapViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BAAD29D82AB8FF0100B5A856 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		BAAD29D92AB8FF0100B5A856 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BAAD29A72AB8F84000B5A856 /* SceneDelegate.m */,
 				BAAD29A92AB8F84000B5A856 /* ViewController.h */,
 				BAAD29AA2AB8F84000B5A856 /* ViewController.m */,
+				BAAD29D82AB8FF0100B5A856 /* MapPin.h */,
+				BAAD29D92AB8FF0100B5A856 /* MapPin.m */,
 				BAAD29AC2AB8F84000B5A856 /* Main.storyboard */,
 				BAAD29AF2AB8F84800B5A856 /* Assets.xcassets */,
 				BAAD29B12AB8F84800B5A856 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAD29AB2AB8F84000B5A856 /* ViewController.m in Sources */,
+				BAAD29DA2AB8FF0100B5A856 /* MapPin.m in Sources */,
 				BAAD29A52AB8F84000B5A856 /* AppDelegate.m in Sources */,
 				BAAD29B62AB8F84800B5A856 /* main.m in Sources */,
 				BAAD29A82AB8F84000B5A856 /* SceneDelegate.m in Sources */,

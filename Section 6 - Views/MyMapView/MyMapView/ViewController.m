@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "MapPin.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    
+    span.latitudeDelta = 0.005; // This is the zoom
+    span.longitudeDelta = 0.005;
+    
+    CLLocationCoordinate2D location;
+    
+    location.latitude = 34.008896;
+    location.longitude = -118.4973998;
+    
+    region.span = span;
+    region.center = location;
+    
+    [self.mapKit setRegion:region animated:YES];
+    
+    MapPin *ann = [[MapPin alloc] init];
+    ann.coordinate = location;
+    [self.mapKit addAnnotation:ann];
 }
 
 
