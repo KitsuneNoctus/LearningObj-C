@@ -18,6 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    locationManager.delegate = self;
+    self.mapKit.delegate = self;
+    locationManager = [[CLLocationManager alloc] init];
+    
     MKCoordinateRegion region;
     MKCoordinateSpan span;
     
@@ -44,6 +48,12 @@
 }
 
 - (IBAction)location:(id)sender {
+    [locationManager requestWhenInUseAuthorization];
+    [locationManager requestAlwaysAuthorization];
+    
+    [locationManager startUpdatingLocation];
+    
+    self.mapKit.showsUserLocation = YES;
 }
 
 - (IBAction)hybrid:(id)sender {
@@ -57,4 +67,23 @@
 - (IBAction)standard:(id)sender {
     self.mapKit.mapType = MKMapTypeStandard;
 }
+
+-(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    
+    span.latitudeDelta = 0.007; // This is the zoom
+    span.longitudeDelta = 0.007;
+    
+    CLLocationCoordinate2D location;
+    
+    location.latitude = userLocation.coordinate.latitude;
+    location.longitude = userLocation.coordinate.longitude;
+    
+    region.span = span;
+    region.center = location;
+    
+    [self.mapKit setRegion:region animated:YES];
+}
+
 @end
