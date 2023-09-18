@@ -1,24 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="maP-Ha-wS9">
+                                <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                                <items>
+                                    <barButtonItem title="Standard" id="Xlp-lO-cBD">
+                                        <connections>
+                                            <action selector="standard:" destination="BYZ-38-t0r" id="Ema-9Q-T1K"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="WW7-BE-wdl"/>
+                                    <barButtonItem title="Satellite" id="6b4-f0-Znj">
+                                        <connections>
+                                            <action selector="satellite:" destination="BYZ-38-t0r" id="CpU-XN-k5P"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="nrg-K8-rtL"/>
+                                    <barButtonItem title="Hybrid" id="TrO-z4-D8i">
+                                        <connections>
+                                            <action selector="hybrid:" destination="BYZ-38-t0r" id="yss-XE-6Rw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="s7x-XA-euJ"/>
+                                    <barButtonItem title="Location" id="L9f-ea-XXT">
+                                        <connections>
+                                            <action selector="location:" destination="BYZ-38-t0r" id="RvH-ZN-wUg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qiy-QR-Ntu">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <items>
+                                    <navigationItem title="MapView" id="8Z1-FE-u7H">
+                                        <barButtonItem key="rightBarButtonItem" title="Directions" id="hS7-b1-BXL">
+                                            <connections>
+                                                <action selector="directions:" destination="BYZ-38-t0r" id="p7Z-Sh-luG"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSg-le-U4s">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="maP-Ha-wS9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3aC-7D-cmF"/>
+                            <constraint firstItem="maP-Ha-wS9" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-34" id="9pk-pq-ZRx"/>
+                            <constraint firstItem="Qiy-QR-Ntu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EJw-xd-zCb"/>
+                            <constraint firstItem="maP-Ha-wS9" firstAttribute="top" secondItem="TSg-le-U4s" secondAttribute="bottom" id="FOv-IS-w3b"/>
+                            <constraint firstItem="TSg-le-U4s" firstAttribute="top" secondItem="Qiy-QR-Ntu" secondAttribute="bottom" id="RLr-2o-MYw"/>
+                            <constraint firstItem="Qiy-QR-Ntu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Um7-MY-KRe"/>
+                            <constraint firstItem="TSg-le-U4s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xae-VI-tKH"/>
+                            <constraint firstItem="maP-Ha-wS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dxn-im-tq1"/>
+                            <constraint firstItem="TSg-le-U4s" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pWN-u0-Asm"/>
+                            <constraint firstItem="Qiy-QR-Ntu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="59" id="t25-ev-wX4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapKit" destination="TSg-le-U4s" id="jGT-oL-ITe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

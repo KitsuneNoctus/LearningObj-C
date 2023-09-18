@@ -19,4 +19,21 @@
 }
 
 
+- (IBAction)directions:(id)sender {
+}
+
+- (IBAction)location:(id)sender {
+}
+
+- (IBAction)hybrid:(id)sender {
+    self.mapKit.mapType = MKMapTypeHybrid;
+}
+
+- (IBAction)satellite:(id)sender {
+    self.mapKit.mapType = MKMapTypeSatellite;
+}
+
+- (IBAction)standard:(id)sender {
+    self.mapKit.mapType = MKMapTypeStandard;
+}
 @end
