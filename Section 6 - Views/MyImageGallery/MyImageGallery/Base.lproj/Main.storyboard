@@ -19,32 +19,38 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="O2y-do-0W2">
                                 <rect key="frame" x="16" y="59" width="361" height="684"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lv9-Zi-au3">
-                                <rect key="frame" x="16" y="763" width="166.33333333333334" height="55"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lv9-Zi-au3">
+                                <rect key="frame" x="16" y="763" width="361" height="55"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DM5-Z2-hWR">
-                                        <rect key="frame" x="0.0" y="0.0" width="62" height="55"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="55"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Back">
                                             <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ip-WV-HEA"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKu-uy-ibq">
-                                        <rect key="frame" x="70" y="0.0" width="25.666666666666671" height="55"/>
+                                        <rect key="frame" x="123" y="0.0" width="115" height="55"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53L-Dl-khE">
-                                        <rect key="frame" x="103.66666666666667" y="0.0" width="62.666666666666671" height="55"/>
+                                        <rect key="frame" x="246" y="0.0" width="115" height="55"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Next">
                                             <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OTS-bx-RNg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -60,10 +66,16 @@
                             <constraint firstItem="O2y-do-0W2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="59" id="CAb-iF-R0m"/>
                             <constraint firstItem="lv9-Zi-au3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MDa-fT-fuN"/>
                             <constraint firstItem="O2y-do-0W2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SbT-g0-HHd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lv9-Zi-au3" secondAttribute="trailing" constant="210.66666666666666" id="a7M-4r-dGw"/>
+                            <constraint firstAttribute="trailing" secondItem="lv9-Zi-au3" secondAttribute="trailing" constant="16" id="a7M-4r-dGw"/>
                             <constraint firstItem="lv9-Zi-au3" firstAttribute="top" secondItem="O2y-do-0W2" secondAttribute="bottom" constant="20" id="amD-qY-kSg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="DM5-Z2-hWR" id="aGR-bX-kfp"/>
+                        <outlet property="imageView" destination="O2y-do-0W2" id="kZh-yh-g6t"/>
+                        <outlet property="label" destination="ZKu-uy-ibq" id="8Nw-y4-KJV"/>
+                        <outlet property="nextButton" destination="53L-Dl-khE" id="upF-95-aIy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
