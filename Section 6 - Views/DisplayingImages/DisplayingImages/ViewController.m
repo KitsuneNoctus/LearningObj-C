@@ -16,7 +16,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.imageView1.image = [UIImage imageNamed:@"Dog.png"];
 }
 
 
+- (IBAction)showMeTheImage:(id)sender {
+    self.imageView2.image = [UIImage imageNamed:@"Dog.png"];
+}
 @end
