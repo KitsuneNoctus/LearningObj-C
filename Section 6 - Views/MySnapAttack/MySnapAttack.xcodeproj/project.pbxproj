@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAC2A0F2AC7480600E12A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A0E2AC7480600E12A7D /* AppDelegate.m */; };
+		BAAC2A122AC7480600E12A7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A112AC7480600E12A7D /* SceneDelegate.m */; };
+		BAAC2A152AC7480600E12A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A142AC7480600E12A7D /* ViewController.m */; };
+		BAAC2A182AC7480600E12A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAC2A162AC7480600E12A7D /* Main.storyboard */; };
+		BAAC2A1A2AC7480800E12A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAC2A192AC7480800E12A7D /* Assets.xcassets */; };
+		BAAC2A1D2AC7480800E12A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAC2A1B2AC7480800E12A7D /* LaunchScreen.storyboard */; };
+		BAAC2A202AC7480800E12A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A1F2AC7480800E12A7D /* main.m */; };
+		BAAC2A2A2AC7480800E12A7D /* MySnapAttackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A292AC7480800E12A7D /* MySnapAttackTests.m */; };
+		BAAC2A342AC7480800E12A7D /* MySnapAttackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A332AC7480800E12A7D /* MySnapAttackUITests.m */; };
+		BAAC2A362AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A352AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAAC2A262AC7480800E12A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAC2A022AC7480600E12A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAC2A092AC7480600E12A7D;
+			remoteInfo = MySnapAttack;
+		};
+		BAAC2A302AC7480800E12A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAC2A022AC7480600E12A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAC2A092AC7480600E12A7D;
+			remoteInfo = MySnapAttack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAAC2A0A2AC7480600E12A7D /* MySnapAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySnapAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAC2A0D2AC7480600E12A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAAC2A0E2AC7480600E12A7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAAC2A102AC7480600E12A7D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BAAC2A112AC7480600E12A7D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BAAC2A132AC7480600E12A7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAAC2A142AC7480600E12A7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAAC2A172AC7480600E12A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAAC2A192AC7480800E12A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAAC2A1C2AC7480800E12A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAAC2A1E2AC7480800E12A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAC2A1F2AC7480800E12A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAAC2A252AC7480800E12A7D /* MySnapAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySnapAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAC2A292AC7480800E12A7D /* MySnapAttackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnapAttackTests.m; sourceTree = "<group>"; };
+		BAAC2A2F2AC7480800E12A7D /* MySnapAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySnapAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAC2A332AC7480800E12A7D /* MySnapAttackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnapAttackUITests.m; sourceTree = "<group>"; };
+		BAAC2A352AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnapAttackUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAC2A072AC7480600E12A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAC2A222AC7480800E12A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAC2A2C2AC7480800E12A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAC2A012AC7480600E12A7D = {
+			isa = PBXGroup;
+			children = (
+				BAAC2A0C2AC7480600E12A7D /* MySnapAttack */,
+				BAAC2A282AC7480800E12A7D /* MySnapAttackTests */,
+				BAAC2A322AC7480800E12A7D /* MySnapAttackUITests */,
+				BAAC2A0B2AC7480600E12A7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAC2A0B2AC7480600E12A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAC2A0A2AC7480600E12A7D /* MySnapAttack.app */,
+				BAAC2A252AC7480800E12A7D /* MySnapAttackTests.xctest */,
+				BAAC2A2F2AC7480800E12A7D /* MySnapAttackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAC2A0C2AC7480600E12A7D /* MySnapAttack */ = {
+			isa = PBXGroup;
+			children = (
+				BAAC2A0D2AC7480600E12A7D /* AppDelegate.h */,
+				BAAC2A0E2AC7480600E12A7D /* AppDelegate.m */,
+				BAAC2A102AC7480600E12A7D /* SceneDelegate.h */,
+				BAAC2A112AC7480600E12A7D /* SceneDelegate.m */,
+				BAAC2A132AC7480600E12A7D /* ViewController.h */,
+				BAAC2A142AC7480600E12A7D /* ViewController.m */,
+				BAAC2A162AC7480600E12A7D /* Main.storyboard */,
+				BAAC2A192AC7480800E12A7D /* Assets.xcassets */,
+				BAAC2A1B2AC7480800E12A7D /* LaunchScreen.storyboard */,
+				BAAC2A1E2AC7480800E12A7D /* Info.plist */,
+				BAAC2A1F2AC7480800E12A7D /* main.m */,
+			);
+			path = MySnapAttack;
+			sourceTree = "<group>";
+		};
+		BAAC2A282AC7480800E12A7D /* MySnapAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAC2A292AC7480800E12A7D /* MySnapAttackTests.m */,
+			);
+			path = MySnapAttackTests;
+			sourceTree = "<group>";
+		};
+		BAAC2A322AC7480800E12A7D /* MySnapAttackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAC2A332AC7480800E12A7D /* MySnapAttackUITests.m */,
+				BAAC2A352AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m */,
+			);
+			path = MySnapAttackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAC2A092AC7480600E12A7D /* MySnapAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAC2A392AC7480800E12A7D /* Build configuration list for PBXNativeTarget "MySnapAttack" */;
+			buildPhases = (
+				BAAC2A062AC7480600E12A7D /* Sources */,
+				BAAC2A072AC7480600E12A7D /* Frameworks */,
+				BAAC2A082AC7480600E12A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySnapAttack;
+			productName = MySnapAttack;
+			productReference = BAAC2A0A2AC7480600E12A7D /* MySnapAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAAC2A242AC7480800E12A7D /* MySnapAttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAC2A3C2AC7480800E12A7D /* Build configuration list for PBXNativeTarget "MySnapAttackTests" */;
+			buildPhases = (
+				BAAC2A212AC7480800E12A7D /* Sources */,
+				BAAC2A222AC7480800E12A7D /* Frameworks */,
+				BAAC2A232AC7480800E12A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAC2A272AC7480800E12A7D /* PBXTargetDependency */,
+			);
+			name = MySnapAttackTests;
+			productName = MySnapAttackTests;
+			productReference = BAAC2A252AC7480800E12A7D /* MySnapAttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAAC2A2E2AC7480800E12A7D /* MySnapAttackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAC2A3F2AC7480800E12A7D /* Build configuration list for PBXNativeTarget "MySnapAttackUITests" */;
+			buildPhases = (
+				BAAC2A2B2AC7480800E12A7D /* Sources */,
+				BAAC2A2C2AC7480800E12A7D /* Frameworks */,
+				BAAC2A2D2AC7480800E12A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAC2A312AC7480800E12A7D /* PBXTargetDependency */,
+			);
+			name = MySnapAttackUITests;
+			productName = MySnapAttackUITests;
+			productReference = BAAC2A2F2AC7480800E12A7D /* MySnapAttackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAC2A022AC7480600E12A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BAAC2A092AC7480600E12A7D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BAAC2A242AC7480800E12A7D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BAAC2A092AC7480600E12A7D;
+					};
+					BAAC2A2E2AC7480800E12A7D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BAAC2A092AC7480600E12A7D;
+					};
+				};
+			};
+			buildConfigurationList = BAAC2A052AC7480600E12A7D /* Build configuration list for PBXProject "MySnapAttack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAAC2A012AC7480600E12A7D;
+			productRefGroup = BAAC2A0B2AC7480600E12A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAC2A092AC7480600E12A7D /* MySnapAttack */,
+				BAAC2A242AC7480800E12A7D /* MySnapAttackTests */,
+				BAAC2A2E2AC7480800E12A7D /* MySnapAttackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAC2A082AC7480600E12A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAC2A1D2AC7480800E12A7D /* LaunchScreen.storyboard in Resources */,
+				BAAC2A1A2AC7480800E12A7D /* Assets.xcassets in Resources */,
+				BAAC2A182AC7480600E12A7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAC2A232AC7480800E12A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAC2A2D2AC7480800E12A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAC2A062AC7480600E12A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAC2A152AC7480600E12A7D /* ViewController.m in Sources */,
+				BAAC2A0F2AC7480600E12A7D /* AppDelegate.m in Sources */,
+				BAAC2A202AC7480800E12A7D /* main.m in Sources */,
+				BAAC2A122AC7480600E12A7D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAC2A212AC7480800E12A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAC2A2A2AC7480800E12A7D /* MySnapAttackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAC2A2B2AC7480800E12A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAC2A362AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m in Sources */,
+				BAAC2A342AC7480800E12A7D /* MySnapAttackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAAC2A272AC7480800E12A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAC2A092AC7480600E12A7D /* MySnapAttack */;
+			targetProxy = BAAC2A262AC7480800E12A7D /* PBXContainerItemProxy */;
+		};
+		BAAC2A312AC7480800E12A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAC2A092AC7480600E12A7D /* MySnapAttack */;
+			targetProxy = BAAC2A302AC7480800E12A7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAAC2A162AC7480600E12A7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAC2A172AC7480600E12A7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAC2A1B2AC7480800E12A7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAC2A1C2AC7480800E12A7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAC2A372AC7480800E12A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAAC2A382AC7480800E12A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAC2A3A2AC7480800E12A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySnapAttack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySnapAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAAC2A3B2AC7480800E12A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySnapAttack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySnapAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAAC2A3D2AC7480800E12A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySnapAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySnapAttack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySnapAttack";
+			};
+			name = Debug;
+		};
+		BAAC2A3E2AC7480800E12A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySnapAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySnapAttack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySnapAttack";
+			};
+			name = Release;
+		};
+		BAAC2A402AC7480800E12A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySnapAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySnapAttack;
+			};
+			name = Debug;
+		};
+		BAAC2A412AC7480800E12A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySnapAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySnapAttack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAC2A052AC7480600E12A7D /* Build configuration list for PBXProject "MySnapAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAC2A372AC7480800E12A7D /* Debug */,
+				BAAC2A382AC7480800E12A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAC2A392AC7480800E12A7D /* Build configuration list for PBXNativeTarget "MySnapAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAC2A3A2AC7480800E12A7D /* Debug */,
+				BAAC2A3B2AC7480800E12A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAC2A3C2AC7480800E12A7D /* Build configuration list for PBXNativeTarget "MySnapAttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAC2A3D2AC7480800E12A7D /* Debug */,
+				BAAC2A3E2AC7480800E12A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAC2A3F2AC7480800E12A7D /* Build configuration list for PBXNativeTarget "MySnapAttackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAC2A402AC7480800E12A7D /* Debug */,
+				BAAC2A412AC7480800E12A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAC2A022AC7480600E12A7D /* Project object */;
+}
