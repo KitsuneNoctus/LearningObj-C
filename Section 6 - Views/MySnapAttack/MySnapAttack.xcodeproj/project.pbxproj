@@ -17,6 +17,8 @@
 		BAAC2A2A2AC7480800E12A7D /* MySnapAttackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A292AC7480800E12A7D /* MySnapAttackTests.m */; };
 		BAAC2A342AC7480800E12A7D /* MySnapAttackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A332AC7480800E12A7D /* MySnapAttackUITests.m */; };
 		BAAC2A362AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC2A352AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m */; };
+		BAAC2A442AC7492B00E12A7D /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAAC2A422AC7492B00E12A7D /* DK Cinnabar Brush.ttf */; };
+		BAAC2A452AC7492B00E12A7D /* Cheveuxdange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAAC2A432AC7492B00E12A7D /* Cheveuxdange.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		BAAC2A2F2AC7480800E12A7D /* MySnapAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySnapAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC2A332AC7480800E12A7D /* MySnapAttackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnapAttackUITests.m; sourceTree = "<group>"; };
 		BAAC2A352AC7480800E12A7D /* MySnapAttackUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnapAttackUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BAAC2A422AC7492B00E12A7D /* DK Cinnabar Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DK Cinnabar Brush.ttf"; sourceTree = "<group>"; };
+		BAAC2A432AC7492B00E12A7D /* Cheveuxdange.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cheveuxdange.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 		BAAC2A0C2AC7480600E12A7D /* MySnapAttack */ = {
 			isa = PBXGroup;
 			children = (
+				BAAC2A432AC7492B00E12A7D /* Cheveuxdange.ttf */,
+				BAAC2A422AC7492B00E12A7D /* DK Cinnabar Brush.ttf */,
 				BAAC2A0D2AC7480600E12A7D /* AppDelegate.h */,
 				BAAC2A0E2AC7480600E12A7D /* AppDelegate.m */,
 				BAAC2A102AC7480600E12A7D /* SceneDelegate.h */,
@@ -240,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAC2A1D2AC7480800E12A7D /* LaunchScreen.storyboard in Resources */,
+				BAAC2A452AC7492B00E12A7D /* Cheveuxdange.ttf in Resources */,
 				BAAC2A1A2AC7480800E12A7D /* Assets.xcassets in Resources */,
+				BAAC2A442AC7492B00E12A7D /* DK Cinnabar Brush.ttf in Resources */,
 				BAAC2A182AC7480600E12A7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +456,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +484,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
