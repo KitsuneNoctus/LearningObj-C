@@ -16,6 +16,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"cuteKitty" ofType:@"pdf"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    NSURLRequest *request  = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
 }
 
 

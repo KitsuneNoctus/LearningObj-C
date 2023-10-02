@@ -17,6 +17,7 @@
 		BA48B4D02ACB8B1A00FB912B /* DisplayingPDFsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA48B4CF2ACB8B1A00FB912B /* DisplayingPDFsTests.m */; };
 		BA48B4DA2ACB8B1A00FB912B /* DisplayingPDFsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA48B4D92ACB8B1A00FB912B /* DisplayingPDFsUITests.m */; };
 		BA48B4DC2ACB8B1A00FB912B /* DisplayingPDFsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA48B4DB2ACB8B1A00FB912B /* DisplayingPDFsUITestsLaunchTests.m */; };
+		BA48B4E92ACB8D3900FB912B /* cuteKitty.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA48B4E82ACB8D3900FB912B /* cuteKitty.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BA48B4D52ACB8B1A00FB912B /* DisplayingPDFsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayingPDFsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA48B4D92ACB8B1A00FB912B /* DisplayingPDFsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayingPDFsUITests.m; sourceTree = "<group>"; };
 		BA48B4DB2ACB8B1A00FB912B /* DisplayingPDFsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayingPDFsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA48B4E82ACB8D3900FB912B /* cuteKitty.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cuteKitty.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BA48B4B42ACB8B1000FB912B /* AppDelegate.m */,
 				BA48B4B62ACB8B1000FB912B /* SceneDelegate.h */,
 				BA48B4B72ACB8B1000FB912B /* SceneDelegate.m */,
+				BA48B4E82ACB8D3900FB912B /* cuteKitty.pdf */,
 				BA48B4B92ACB8B1000FB912B /* ViewController.h */,
 				BA48B4BA2ACB8B1000FB912B /* ViewController.m */,
 				BA48B4BC2ACB8B1000FB912B /* Main.storyboard */,
@@ -242,6 +245,7 @@
 				BA48B4C32ACB8B1900FB912B /* LaunchScreen.storyboard in Resources */,
 				BA48B4C02ACB8B1900FB912B /* Assets.xcassets in Resources */,
 				BA48B4BE2ACB8B1000FB912B /* Main.storyboard in Resources */,
+				BA48B4E92ACB8D3900FB912B /* cuteKitty.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
