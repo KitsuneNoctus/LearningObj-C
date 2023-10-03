@@ -6,8 +6,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    SystemSoundID soundID;
+}
+
+
+- (IBAction)playSound:(id)sender;
 
 
 @end

@@ -17,6 +17,8 @@
 		BA48B5D62ACCDD7B00FB912B /* PlayingSoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA48B5D52ACCDD7B00FB912B /* PlayingSoundsTests.m */; };
 		BA48B5E02ACCDD7B00FB912B /* PlayingSoundsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA48B5DF2ACCDD7B00FB912B /* PlayingSoundsUITests.m */; };
 		BA48B5E22ACCDD7B00FB912B /* PlayingSoundsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA48B5E12ACCDD7B00FB912B /* PlayingSoundsUITestsLaunchTests.m */; };
+		BA48B5EF2ACCDDC100FB912B /* Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA48B5EE2ACCDDC100FB912B /* Sound.wav */; };
+		BA48B5F22ACCDE2C00FB912B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA48B5F12ACCDE2C00FB912B /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		BA48B5DB2ACCDD7B00FB912B /* PlayingSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA48B5DF2ACCDD7B00FB912B /* PlayingSoundsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingSoundsUITests.m; sourceTree = "<group>"; };
 		BA48B5E12ACCDD7B00FB912B /* PlayingSoundsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingSoundsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA48B5EE2ACCDDC100FB912B /* Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound.wav; sourceTree = "<group>"; };
+		BA48B5F12ACCDE2C00FB912B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA48B5F22ACCDE2C00FB912B /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,7 @@
 				BA48B5D42ACCDD7B00FB912B /* PlayingSoundsTests */,
 				BA48B5DE2ACCDD7B00FB912B /* PlayingSoundsUITests */,
 				BA48B5B72ACCDD7300FB912B /* Products */,
+				BA48B5F02ACCDE2C00FB912B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +110,7 @@
 		BA48B5B82ACCDD7300FB912B /* PlayingSounds */ = {
 			isa = PBXGroup;
 			children = (
+				BA48B5EE2ACCDDC100FB912B /* Sound.wav */,
 				BA48B5B92ACCDD7300FB912B /* AppDelegate.h */,
 				BA48B5BA2ACCDD7300FB912B /* AppDelegate.m */,
 				BA48B5BC2ACCDD7300FB912B /* SceneDelegate.h */,
@@ -134,6 +141,14 @@
 				BA48B5E12ACCDD7B00FB912B /* PlayingSoundsUITestsLaunchTests.m */,
 			);
 			path = PlayingSoundsUITests;
+			sourceTree = "<group>";
+		};
+		BA48B5F02ACCDE2C00FB912B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA48B5F12ACCDE2C00FB912B /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +256,7 @@
 			files = (
 				BA48B5C92ACCDD7B00FB912B /* LaunchScreen.storyboard in Resources */,
 				BA48B5C62ACCDD7B00FB912B /* Assets.xcassets in Resources */,
+				BA48B5EF2ACCDDC100FB912B /* Sound.wav in Resources */,
 				BA48B5C42ACCDD7300FB912B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
