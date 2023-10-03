@@ -22,6 +22,11 @@
     
     [[self.imageView1 layer] setCornerRadius:30.0f];
     [[self.imageView1 layer] setMasksToBounds:YES];
+    
+    self.imageView2.layer.shadowColor = [[UIColor blackColor] CGColor];
+    self.imageView2.layer.shadowOpacity = 0.5;
+    self.imageView2.layer.shadowRadius = 5.0f;
+    self.imageView2.layer.shadowOffset = CGSizeMake(5, 5);
 }
 
 
