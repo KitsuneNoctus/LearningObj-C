@@ -9,6 +9,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)playAnimation:(id)sender;
+
 
 @end
 
