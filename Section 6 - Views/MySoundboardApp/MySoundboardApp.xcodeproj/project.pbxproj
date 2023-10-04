@@ -17,6 +17,13 @@
 		BAEDE80D2ACDE7D10016ECA4 /* MySoundboardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEDE80C2ACDE7D10016ECA4 /* MySoundboardAppTests.m */; };
 		BAEDE8172ACDE7D10016ECA4 /* MySoundboardAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEDE8162ACDE7D10016ECA4 /* MySoundboardAppUITests.m */; };
 		BAEDE8192ACDE7D10016ECA4 /* MySoundboardAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEDE8182ACDE7D10016ECA4 /* MySoundboardAppUITestsLaunchTests.m */; };
+		BAEDE82B2ACDE8380016ECA4 /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAEDE8252ACDE8380016ECA4 /* Dog.wav */; };
+		BAEDE82C2ACDE8380016ECA4 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAEDE8262ACDE8380016ECA4 /* Cat.wav */; };
+		BAEDE82D2ACDE8380016ECA4 /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAEDE8272ACDE8380016ECA4 /* Horse.mp3 */; };
+		BAEDE82E2ACDE8380016ECA4 /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAEDE8282ACDE8380016ECA4 /* Frog.wav */; };
+		BAEDE82F2ACDE8380016ECA4 /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAEDE8292ACDE8380016ECA4 /* Pig.wav */; };
+		BAEDE8302ACDE8380016ECA4 /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAEDE82A2ACDE8380016ECA4 /* Sheep.wav */; };
+		BAEDE8332ACDEB4E0016ECA4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEDE8322ACDEB4E0016ECA4 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		BAEDE8122ACDE7D10016ECA4 /* MySoundboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySoundboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEDE8162ACDE7D10016ECA4 /* MySoundboardAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySoundboardAppUITests.m; sourceTree = "<group>"; };
 		BAEDE8182ACDE7D10016ECA4 /* MySoundboardAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySoundboardAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BAEDE8252ACDE8380016ECA4 /* Dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dog.wav; path = "../../../../../../Downloads/Animal Sounboard/Dog.wav"; sourceTree = "<group>"; };
+		BAEDE8262ACDE8380016ECA4 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cat.wav; path = "../../../../../../Downloads/Animal Sounboard/Cat.wav"; sourceTree = "<group>"; };
+		BAEDE8272ACDE8380016ECA4 /* Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Horse.mp3; path = "../../../../../../Downloads/Animal Sounboard/Horse.mp3"; sourceTree = "<group>"; };
+		BAEDE8282ACDE8380016ECA4 /* Frog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Frog.wav; path = "../../../../../../Downloads/Animal Sounboard/Frog.wav"; sourceTree = "<group>"; };
+		BAEDE8292ACDE8380016ECA4 /* Pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Pig.wav; path = "../../../../../../Downloads/Animal Sounboard/Pig.wav"; sourceTree = "<group>"; };
+		BAEDE82A2ACDE8380016ECA4 /* Sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sheep.wav; path = "../../../../../../Downloads/Animal Sounboard/Sheep.wav"; sourceTree = "<group>"; };
+		BAEDE8322ACDEB4E0016ECA4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEDE8332ACDEB4E0016ECA4 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,7 @@
 				BAEDE80B2ACDE7D10016ECA4 /* MySoundboardAppTests */,
 				BAEDE8152ACDE7D10016ECA4 /* MySoundboardAppUITests */,
 				BAEDE7EE2ACDE7CF0016ECA4 /* Products */,
+				BAEDE8312ACDEB4E0016ECA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +120,12 @@
 		BAEDE7EF2ACDE7CF0016ECA4 /* MySoundboardApp */ = {
 			isa = PBXGroup;
 			children = (
+				BAEDE8262ACDE8380016ECA4 /* Cat.wav */,
+				BAEDE8252ACDE8380016ECA4 /* Dog.wav */,
+				BAEDE8282ACDE8380016ECA4 /* Frog.wav */,
+				BAEDE8272ACDE8380016ECA4 /* Horse.mp3 */,
+				BAEDE8292ACDE8380016ECA4 /* Pig.wav */,
+				BAEDE82A2ACDE8380016ECA4 /* Sheep.wav */,
 				BAEDE7F02ACDE7CF0016ECA4 /* AppDelegate.h */,
 				BAEDE7F12ACDE7CF0016ECA4 /* AppDelegate.m */,
 				BAEDE7F32ACDE7CF0016ECA4 /* SceneDelegate.h */,
@@ -134,6 +156,14 @@
 				BAEDE8182ACDE7D10016ECA4 /* MySoundboardAppUITestsLaunchTests.m */,
 			);
 			path = MySoundboardAppUITests;
+			sourceTree = "<group>";
+		};
+		BAEDE8312ACDEB4E0016ECA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDE8322ACDEB4E0016ECA4 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +269,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEDE82E2ACDE8380016ECA4 /* Frog.wav in Resources */,
 				BAEDE8002ACDE7D10016ECA4 /* LaunchScreen.storyboard in Resources */,
+				BAEDE82C2ACDE8380016ECA4 /* Cat.wav in Resources */,
+				BAEDE82F2ACDE8380016ECA4 /* Pig.wav in Resources */,
+				BAEDE82D2ACDE8380016ECA4 /* Horse.mp3 in Resources */,
+				BAEDE82B2ACDE8380016ECA4 /* Dog.wav in Resources */,
 				BAEDE7FD2ACDE7D10016ECA4 /* Assets.xcassets in Resources */,
 				BAEDE7FB2ACDE7CF0016ECA4 /* Main.storyboard in Resources */,
+				BAEDE8302ACDE8380016ECA4 /* Sheep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
