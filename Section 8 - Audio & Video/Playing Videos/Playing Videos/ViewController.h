@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController
 
 - (IBAction)playVideo:(id)sender;
+- (IBAction)streamVideo:(id)sender;
 
 
 
