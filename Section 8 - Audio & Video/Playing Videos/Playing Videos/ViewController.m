@@ -19,4 +19,16 @@
 }
 
 
+- (IBAction)playVideo:(id)sender {
+    NSURL *videoURL = [[NSBundle mainBundle] URLForResource:@"SampleVideo_1280x720_5mb" withExtension:@"mp4"];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    
+    AVPlayerViewController *controller = [[AVPlayerViewController alloc] init];
+    controller.player = player;
+    
+    [player play];
+    
+    [self presentViewController:controller animated:YES completion:nil];
+}
+
 @end
