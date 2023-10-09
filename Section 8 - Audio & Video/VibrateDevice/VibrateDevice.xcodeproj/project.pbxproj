@@ -17,6 +17,7 @@
 		BA3C15952AD4C4F800B8E2B3 /* VibrateDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3C15942AD4C4F800B8E2B3 /* VibrateDeviceTests.m */; };
 		BA3C159F2AD4C4F800B8E2B3 /* VibrateDeviceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3C159E2AD4C4F800B8E2B3 /* VibrateDeviceUITests.m */; };
 		BA3C15A12AD4C4F800B8E2B3 /* VibrateDeviceUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3C15A02AD4C4F800B8E2B3 /* VibrateDeviceUITestsLaunchTests.m */; };
+		BA3C15AF2AD4C56000B8E2B3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3C15AE2AD4C56000B8E2B3 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BA3C159A2AD4C4F800B8E2B3 /* VibrateDeviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibrateDeviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3C159E2AD4C4F800B8E2B3 /* VibrateDeviceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibrateDeviceUITests.m; sourceTree = "<group>"; };
 		BA3C15A02AD4C4F800B8E2B3 /* VibrateDeviceUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibrateDeviceUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA3C15AE2AD4C56000B8E2B3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3C15AF2AD4C56000B8E2B3 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				BA3C15932AD4C4F800B8E2B3 /* VibrateDeviceTests */,
 				BA3C159D2AD4C4F800B8E2B3 /* VibrateDeviceUITests */,
 				BA3C15762AD4C4F500B8E2B3 /* Products */,
+				BA3C15AD2AD4C56000B8E2B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +138,14 @@
 				BA3C15A02AD4C4F800B8E2B3 /* VibrateDeviceUITestsLaunchTests.m */,
 			);
 			path = VibrateDeviceUITests;
+			sourceTree = "<group>";
+		};
+		BA3C15AD2AD4C56000B8E2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA3C15AE2AD4C56000B8E2B3 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

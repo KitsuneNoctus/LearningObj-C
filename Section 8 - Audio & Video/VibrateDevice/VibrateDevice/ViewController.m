@@ -19,4 +19,8 @@
 }
 
 
+- (IBAction)vibrate:(id)sender {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
+
 @end
