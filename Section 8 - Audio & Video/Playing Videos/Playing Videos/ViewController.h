@@ -11,6 +11,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+
 - (IBAction)playVideo:(id)sender;
 - (IBAction)streamVideo:(id)sender;
 
