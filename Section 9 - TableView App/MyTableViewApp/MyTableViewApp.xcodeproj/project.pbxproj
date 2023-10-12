@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA4D8B802AD7228C00195923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8B7F2AD7228C00195923 /* AppDelegate.m */; };
 		BA4D8B832AD7228C00195923 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8B822AD7228C00195923 /* SceneDelegate.m */; };
-		BA4D8B862AD7228C00195923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8B852AD7228C00195923 /* ViewController.m */; };
 		BA4D8B892AD7228C00195923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4D8B872AD7228C00195923 /* Main.storyboard */; };
 		BA4D8B8B2AD7228D00195923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4D8B8A2AD7228D00195923 /* Assets.xcassets */; };
 		BA4D8B8E2AD7228D00195923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4D8B8C2AD7228D00195923 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,8 @@
 		BA4D8B9B2AD7228D00195923 /* MyTableViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8B9A2AD7228D00195923 /* MyTableViewAppTests.m */; };
 		BA4D8BA52AD7228D00195923 /* MyTableViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8BA42AD7228D00195923 /* MyTableViewAppUITests.m */; };
 		BA4D8BA72AD7228D00195923 /* MyTableViewAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8BA62AD7228D00195923 /* MyTableViewAppUITestsLaunchTests.m */; };
+		BA4D8BB52AD7255800195923 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8BB42AD7255800195923 /* TableViewController.m */; };
+		BA4D8BB82AD7257200195923 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8BB72AD7257200195923 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,6 @@
 		BA4D8B7F2AD7228C00195923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA4D8B812AD7228C00195923 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		BA4D8B822AD7228C00195923 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BA4D8B842AD7228C00195923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA4D8B852AD7228C00195923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BA4D8B882AD7228C00195923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA4D8B8A2AD7228D00195923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4D8B8D2AD7228D00195923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,10 @@
 		BA4D8BA02AD7228D00195923 /* MyTableViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTableViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4D8BA42AD7228D00195923 /* MyTableViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewAppUITests.m; sourceTree = "<group>"; };
 		BA4D8BA62AD7228D00195923 /* MyTableViewAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA4D8BB32AD7255800195923 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BA4D8BB42AD7255800195923 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BA4D8BB62AD7257200195923 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BA4D8BB72AD7257200195923 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +111,10 @@
 				BA4D8B7F2AD7228C00195923 /* AppDelegate.m */,
 				BA4D8B812AD7228C00195923 /* SceneDelegate.h */,
 				BA4D8B822AD7228C00195923 /* SceneDelegate.m */,
-				BA4D8B842AD7228C00195923 /* ViewController.h */,
-				BA4D8B852AD7228C00195923 /* ViewController.m */,
+				BA4D8BB62AD7257200195923 /* TableViewCell.h */,
+				BA4D8BB72AD7257200195923 /* TableViewCell.m */,
+				BA4D8BB32AD7255800195923 /* TableViewController.h */,
+				BA4D8BB42AD7255800195923 /* TableViewController.m */,
 				BA4D8B872AD7228C00195923 /* Main.storyboard */,
 				BA4D8B8A2AD7228D00195923 /* Assets.xcassets */,
 				BA4D8B8C2AD7228D00195923 /* LaunchScreen.storyboard */,
@@ -266,10 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4D8B862AD7228C00195923 /* ViewController.m in Sources */,
 				BA4D8B802AD7228C00195923 /* AppDelegate.m in Sources */,
 				BA4D8B912AD7228D00195923 /* main.m in Sources */,
 				BA4D8B832AD7228C00195923 /* SceneDelegate.m in Sources */,
+				BA4D8BB82AD7257200195923 /* TableViewCell.m in Sources */,
+				BA4D8BB52AD7255800195923 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +454,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +482,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
