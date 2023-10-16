@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4805292ADDB5E6001ED255 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4805282ADDB5E6001ED255 /* DetailsViewController.m */; };
 		BA4D8B802AD7228C00195923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8B7F2AD7228C00195923 /* AppDelegate.m */; };
 		BA4D8B832AD7228C00195923 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D8B822AD7228C00195923 /* SceneDelegate.m */; };
 		BA4D8B892AD7228C00195923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4D8B872AD7228C00195923 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4805272ADDB5E6001ED255 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		BA4805282ADDB5E6001ED255 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		BA4D8B7B2AD7228C00195923 /* MyTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4D8B7E2AD7228C00195923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA4D8B7F2AD7228C00195923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				BA4D8BB72AD7257200195923 /* TableViewCell.m */,
 				BA4D8BB32AD7255800195923 /* TableViewController.h */,
 				BA4D8BB42AD7255800195923 /* TableViewController.m */,
+				BA4805272ADDB5E6001ED255 /* DetailsViewController.h */,
+				BA4805282ADDB5E6001ED255 /* DetailsViewController.m */,
 				BA4D8B872AD7228C00195923 /* Main.storyboard */,
 				BA4D8B8A2AD7228D00195923 /* Assets.xcassets */,
 				BA4D8B8C2AD7228D00195923 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 				BA4D8B802AD7228C00195923 /* AppDelegate.m in Sources */,
 				BA4D8B912AD7228D00195923 /* main.m in Sources */,
 				BA4D8B832AD7228C00195923 /* SceneDelegate.m in Sources */,
+				BA4805292ADDB5E6001ED255 /* DetailsViewController.m in Sources */,
 				BA4D8BB82AD7257200195923 /* TableViewCell.m in Sources */,
 				BA4D8BB52AD7255800195923 /* TableViewController.m in Sources */,
 			);

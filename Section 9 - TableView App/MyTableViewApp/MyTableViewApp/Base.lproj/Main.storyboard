@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -65,6 +66,7 @@
                                     <outlet property="cellDescription" destination="DGr-CQ-XtD" id="bIJ-Od-JbD"/>
                                     <outlet property="cellImageView" destination="7ux-Ts-bvU" id="a0V-yi-xJc"/>
                                     <outlet property="cellTitle" destination="tJG-4i-Vqb" id="D4t-eh-76i"/>
+                                    <segue destination="9SR-HK-yXH" kind="show" identifier="showDetail" id="zde-4T-fq8"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -78,6 +80,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3J-LQ-Rbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1003.8167938931298" y="-19.014084507042256"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="TLx-uv-uSb">
+            <objects>
+                <viewController id="9SR-HK-yXH" customClass="DetailsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="unV-qA-lqM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ppg-cx-qgE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ADq-Cw-gQp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Umb-3D-lrr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1774" y="0.0"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qTb-qL-ZMN">
