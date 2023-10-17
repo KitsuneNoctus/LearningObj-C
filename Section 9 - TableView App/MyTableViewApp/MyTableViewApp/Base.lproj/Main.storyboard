@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -88,14 +89,98 @@
                     <view key="view" contentMode="scaleToFill" id="unV-qA-lqM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigBen" translatesAutoresizingMaskIntoConstraints="NO" id="hqz-Sh-urr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London SW1A 0AA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3t6-Kq-f99">
+                                <rect key="frame" x="16" y="259" width="361" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="63E-ew-Ja2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Ben" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="h4x-Vc-3sz">
+                                <rect key="frame" x="16" y="211" width="361" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B2t-ZM-SQk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.36078431370000003" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5M-t0-ebk">
+                                <rect key="frame" x="16" y="312" width="361" height="203"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" calendarEvent="YES"/>
+                            </textView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J5z-yh-LNi">
+                                <rect key="frame" x="16" y="523" width="361" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="Eka-Ru-vf0"/>
+                                </constraints>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PY8-Ie-urc">
+                                <rect key="frame" x="16" y="666" width="361" height="49"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.36078431370000003" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="5BN-qe-ad3"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Directions">
+                                    <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="directions:" destination="9SR-HK-yXH" eventType="touchUpInside" id="4JE-Yt-169"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ppg-cx-qgE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h4x-Vc-3sz" firstAttribute="top" secondItem="hqz-Sh-urr" secondAttribute="bottom" constant="8" symbolic="YES" id="0ce-Mk-MHU"/>
+                            <constraint firstItem="hqz-Sh-urr" firstAttribute="top" secondItem="unV-qA-lqM" secondAttribute="top" id="2Up-B7-kGh"/>
+                            <constraint firstItem="hqz-Sh-urr" firstAttribute="trailing" secondItem="Ppg-cx-qgE" secondAttribute="trailing" id="2hd-Hx-Bh5"/>
+                            <constraint firstItem="3t6-Kq-f99" firstAttribute="leading" secondItem="Ppg-cx-qgE" secondAttribute="leading" constant="16" id="4f3-nL-6FL"/>
+                            <constraint firstItem="3t6-Kq-f99" firstAttribute="top" secondItem="h4x-Vc-3sz" secondAttribute="bottom" constant="8" symbolic="YES" id="56A-rO-J1W"/>
+                            <constraint firstItem="Ppg-cx-qgE" firstAttribute="trailing" secondItem="3t6-Kq-f99" secondAttribute="trailing" constant="16" id="76j-Ba-zdK"/>
+                            <constraint firstItem="Ppg-cx-qgE" firstAttribute="trailing" secondItem="J5z-yh-LNi" secondAttribute="trailing" constant="16" id="FmJ-dh-wbs"/>
+                            <constraint firstItem="Ppg-cx-qgE" firstAttribute="trailing" secondItem="h4x-Vc-3sz" secondAttribute="trailing" constant="16" id="KBS-MB-g7r"/>
+                            <constraint firstItem="a5M-t0-ebk" firstAttribute="leading" secondItem="Ppg-cx-qgE" secondAttribute="leading" constant="16" id="KPT-wh-ZZD"/>
+                            <constraint firstItem="h4x-Vc-3sz" firstAttribute="leading" secondItem="Ppg-cx-qgE" secondAttribute="leading" constant="16" id="OFj-Zq-Bsa"/>
+                            <constraint firstItem="J5z-yh-LNi" firstAttribute="leading" secondItem="Ppg-cx-qgE" secondAttribute="leading" constant="16" id="PJP-ut-Km0"/>
+                            <constraint firstItem="J5z-yh-LNi" firstAttribute="top" secondItem="a5M-t0-ebk" secondAttribute="bottom" constant="8" symbolic="YES" id="Vzt-UU-gYe"/>
+                            <constraint firstItem="PY8-Ie-urc" firstAttribute="bottom" secondItem="unV-qA-lqM" secondAttribute="bottom" constant="-34" id="ZFb-mZ-kVr"/>
+                            <constraint firstItem="PY8-Ie-urc" firstAttribute="leading" secondItem="Ppg-cx-qgE" secondAttribute="leading" constant="16" id="a7r-Xe-JFA"/>
+                            <constraint firstItem="Ppg-cx-qgE" firstAttribute="trailing" secondItem="PY8-Ie-urc" secondAttribute="trailing" constant="16" id="agc-3O-Lgc"/>
+                            <constraint firstItem="hqz-Sh-urr" firstAttribute="leading" secondItem="Ppg-cx-qgE" secondAttribute="leading" id="aiq-Xc-m9k"/>
+                            <constraint firstItem="Ppg-cx-qgE" firstAttribute="trailing" secondItem="a5M-t0-ebk" secondAttribute="trailing" constant="16" id="j6U-s5-R2P"/>
+                            <constraint firstItem="PY8-Ie-urc" firstAttribute="top" secondItem="J5z-yh-LNi" secondAttribute="bottom" constant="8" symbolic="YES" id="mwa-CM-WkD"/>
+                            <constraint firstItem="a5M-t0-ebk" firstAttribute="top" secondItem="3t6-Kq-f99" secondAttribute="bottom" constant="8" symbolic="YES" id="sHM-0q-f0A"/>
+                            <constraint firstItem="a5M-t0-ebk" firstAttribute="height" secondItem="hqz-Sh-urr" secondAttribute="height" id="x4v-gV-AVP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ADq-Cw-gQp"/>
+                    <connections>
+                        <outlet property="button" destination="PY8-Ie-urc" id="Sh6-wp-YWg"/>
+                        <outlet property="detailDescription" destination="3t6-Kq-f99" id="85T-he-Px2"/>
+                        <outlet property="detailImageView" destination="hqz-Sh-urr" id="Qox-B4-Se6"/>
+                        <outlet property="detailTextView" destination="a5M-t0-ebk" id="brJ-JX-mkH"/>
+                        <outlet property="detailTitle" destination="h4x-Vc-3sz" id="BcR-4b-Mej"/>
+                        <outlet property="mapView" destination="J5z-yh-LNi" id="PgA-4w-1ug"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Umb-3D-lrr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1774" y="0.0"/>
+            <point key="canvasLocation" x="1849.6183206106869" y="-19.014084507042256"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qTb-qL-ZMN">
