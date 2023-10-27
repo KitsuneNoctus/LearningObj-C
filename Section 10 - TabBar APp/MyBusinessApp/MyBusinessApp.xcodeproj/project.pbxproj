@@ -20,6 +20,7 @@
 		BA8E823C2AEB18C1005FA11A /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E823B2AEB18C1005FA11A /* ServicesTableViewController.m */; };
 		BA8E823F2AEB18D6005FA11A /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E823E2AEB18D6005FA11A /* ServicesTableViewCell.m */; };
 		BA8E82422AEB18E6005FA11A /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82412AEB18E6005FA11A /* ServicesViewController.m */; };
+		BAAF245C2AEC7D4900D1219A /* PortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF245B2AEC7D4900D1219A /* PortfolioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		BA8E823E2AEB18D6005FA11A /* ServicesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewCell.m; sourceTree = "<group>"; };
 		BA8E82402AEB18E6005FA11A /* ServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
 		BA8E82412AEB18E6005FA11A /* ServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		BAAF245A2AEC7D4900D1219A /* PortfolioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioViewController.h; sourceTree = "<group>"; };
+		BAAF245B2AEC7D4900D1219A /* PortfolioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				BA8E820A2AEAE0D6005FA11A /* ViewController.h */,
 				BA8E820B2AEAE0D6005FA11A /* ViewController.m */,
 				BA8E82392AEB189E005FA11A /* Services */,
+				BAAF24592AEC7CDB00D1219A /* Portfolio */,
 				BA8E820D2AEAE0D6005FA11A /* Main.storyboard */,
 				BA8E82102AEAE0D8005FA11A /* Assets.xcassets */,
 				BA8E82122AEAE0D8005FA11A /* LaunchScreen.storyboard */,
@@ -157,6 +161,15 @@
 				BA8E82412AEB18E6005FA11A /* ServicesViewController.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		BAAF24592AEC7CDB00D1219A /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF245A2AEC7D4900D1219A /* PortfolioViewController.h */,
+				BAAF245B2AEC7D4900D1219A /* PortfolioViewController.m */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8E82422AEB18E6005FA11A /* ServicesViewController.m in Sources */,
+				BAAF245C2AEC7D4900D1219A /* PortfolioViewController.m in Sources */,
 				BA8E823C2AEB18C1005FA11A /* ServicesTableViewController.m in Sources */,
 				BA8E820C2AEAE0D6005FA11A /* ViewController.m in Sources */,
 				BA8E82062AEAE0D6005FA11A /* AppDelegate.m in Sources */,
