@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1F6C9F2AF1726600F2A8A2 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6C9E2AF1726600F2A8A2 /* ContactViewController.m */; };
+		BA1F6CA22AF1744A00F2A8A2 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CA12AF1744A00F2A8A2 /* MapPin.m */; };
 		BA8E82062AEAE0D6005FA11A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82052AEAE0D6005FA11A /* AppDelegate.m */; };
 		BA8E82092AEAE0D6005FA11A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82082AEAE0D6005FA11A /* SceneDelegate.m */; };
 		BA8E820C2AEAE0D6005FA11A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E820B2AEAE0D6005FA11A /* ViewController.m */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA1F6C9D2AF1726600F2A8A2 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		BA1F6C9E2AF1726600F2A8A2 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		BA1F6CA02AF1744A00F2A8A2 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		BA1F6CA12AF1744A00F2A8A2 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		BA8E82012AEAE0D6005FA11A /* MyBusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E82042AEAE0D6005FA11A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA8E82052AEAE0D6005FA11A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA1F6C9C2AF1724B00F2A8A2 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				BA1F6C9D2AF1726600F2A8A2 /* ContactViewController.h */,
+				BA1F6C9E2AF1726600F2A8A2 /* ContactViewController.m */,
+				BA1F6CA02AF1744A00F2A8A2 /* MapPin.h */,
+				BA1F6CA12AF1744A00F2A8A2 /* MapPin.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
 		BA8E81F82AEAE0D6005FA11A = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +141,7 @@
 				BA8E820B2AEAE0D6005FA11A /* ViewController.m */,
 				BA8E82392AEB189E005FA11A /* Services */,
 				BAAF24592AEC7CDB00D1219A /* Portfolio */,
+				BA1F6C9C2AF1724B00F2A8A2 /* Contact */,
 				BA8E820D2AEAE0D6005FA11A /* Main.storyboard */,
 				BA8E82102AEAE0D8005FA11A /* Assets.xcassets */,
 				BA8E82122AEAE0D8005FA11A /* LaunchScreen.storyboard */,
@@ -306,7 +324,9 @@
 				BAAF245C2AEC7D4900D1219A /* PortfolioViewController.m in Sources */,
 				BA8E823C2AEB18C1005FA11A /* ServicesTableViewController.m in Sources */,
 				BA8E820C2AEAE0D6005FA11A /* ViewController.m in Sources */,
+				BA1F6C9F2AF1726600F2A8A2 /* ContactViewController.m in Sources */,
 				BA8E82062AEAE0D6005FA11A /* AppDelegate.m in Sources */,
+				BA1F6CA22AF1744A00F2A8A2 /* MapPin.m in Sources */,
 				BA8E82172AEAE0D8005FA11A /* main.m in Sources */,
 				BA8E82092AEAE0D6005FA11A /* SceneDelegate.m in Sources */,
 				BA8E823F2AEB18D6005FA11A /* ServicesTableViewCell.m in Sources */,
