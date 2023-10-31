@@ -347,7 +347,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h1B-sd-ZNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5632.8244274809158" y="-28.169014084507044"/>
+            <point key="canvasLocation" x="4028" y="-27"/>
         </scene>
         <!--Contact Us-->
         <scene sceneID="6gx-B7-k2I">
@@ -405,6 +405,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Email Us">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="eC8-5i-1sR" kind="show" id="CXu-1z-f7J"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVx-Vf-JeG">
                                         <rect key="frame" x="0.0" y="263.33333333333337" width="361" height="57.666666666666686"/>
@@ -450,7 +453,113 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pYw-im-OZe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3718.320610687023" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="3108" y="-765"/>
+        </scene>
+        <!--Email View Controller-->
+        <scene sceneID="sTf-zE-AZ7">
+            <objects>
+                <viewController id="eC8-5i-1sR" customClass="EmailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yai-Ma-ZuO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="yL9-AN-cmD">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Sg5-9i-MWr">
+                                <rect key="frame" x="16" y="10" width="361" height="210"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ia-OQ-2IK">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="34"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e6j-1b-x6r">
+                                        <rect key="frame" x="0.0" y="44" width="361" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="eC8-5i-1sR" eventType="editingDidEndOnExit" id="Dod-a4-ELA"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjC-Nz-x7U">
+                                        <rect key="frame" x="0.0" y="88" width="361" height="34"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvi-Hd-bgh">
+                                        <rect key="frame" x="0.0" y="132" width="361" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="eC8-5i-1sR" eventType="editingDidEndOnExit" id="Tus-QV-jcU"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWj-24-yY8">
+                                        <rect key="frame" x="0.0" y="176" width="361" height="34"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5w5-t6-AMe">
+                                <rect key="frame" x="16" y="228" width="361" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="jpH-ZE-w5z"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BJ-ac-J6g">
+                                <rect key="frame" x="16" y="398" width="361" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="ARM-3p-4Zh"/>
+                                </constraints>
+                                <color key="tintColor" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Send">
+                                    <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="email:" destination="eC8-5i-1sR" eventType="touchUpInside" id="BI1-TR-F5F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ffT-Cx-jKh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Sg5-9i-MWr" firstAttribute="leading" secondItem="ffT-Cx-jKh" secondAttribute="leading" constant="16" id="18k-Cc-OV7"/>
+                            <constraint firstItem="yL9-AN-cmD" firstAttribute="leading" secondItem="ffT-Cx-jKh" secondAttribute="leading" id="8Lg-cb-KYb"/>
+                            <constraint firstItem="5w5-t6-AMe" firstAttribute="leading" secondItem="ffT-Cx-jKh" secondAttribute="leading" constant="16" id="952-9V-a7J"/>
+                            <constraint firstItem="ffT-Cx-jKh" firstAttribute="trailing" secondItem="Sg5-9i-MWr" secondAttribute="trailing" constant="16" id="Bn0-8d-qpp"/>
+                            <constraint firstItem="yL9-AN-cmD" firstAttribute="top" secondItem="ffT-Cx-jKh" secondAttribute="top" id="ECV-Ba-rLM"/>
+                            <constraint firstItem="Sg5-9i-MWr" firstAttribute="top" secondItem="ffT-Cx-jKh" secondAttribute="top" constant="10" id="ETy-UV-Tt8"/>
+                            <constraint firstItem="5w5-t6-AMe" firstAttribute="top" secondItem="Sg5-9i-MWr" secondAttribute="bottom" constant="8" id="FW3-dn-d1X"/>
+                            <constraint firstItem="yL9-AN-cmD" firstAttribute="trailing" secondItem="ffT-Cx-jKh" secondAttribute="trailing" id="GbB-pr-AoY"/>
+                            <constraint firstItem="yL9-AN-cmD" firstAttribute="bottom" secondItem="ffT-Cx-jKh" secondAttribute="bottom" id="MqZ-pI-Nhb"/>
+                            <constraint firstItem="ffT-Cx-jKh" firstAttribute="trailing" secondItem="1BJ-ac-J6g" secondAttribute="trailing" constant="16" id="WYi-Xm-Omj"/>
+                            <constraint firstItem="1BJ-ac-J6g" firstAttribute="leading" secondItem="ffT-Cx-jKh" secondAttribute="leading" constant="16" id="XZK-PA-BvL"/>
+                            <constraint firstItem="ffT-Cx-jKh" firstAttribute="trailing" secondItem="5w5-t6-AMe" secondAttribute="trailing" constant="16" id="iT8-SR-XYs"/>
+                            <constraint firstItem="1BJ-ac-J6g" firstAttribute="top" secondItem="5w5-t6-AMe" secondAttribute="bottom" constant="20" id="xsb-hI-9KW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="p7h-Cr-xXP"/>
+                    <connections>
+                        <outlet property="button" destination="1BJ-ac-J6g" id="mRC-LJ-WgM"/>
+                        <outlet property="emailField" destination="yvi-Hd-bgh" id="opl-5C-bJt"/>
+                        <outlet property="messageField" destination="5w5-t6-AMe" id="LWU-IP-Htp"/>
+                        <outlet property="nameField" destination="e6j-1b-x6r" id="by2-Gv-tLz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r8x-wz-Ehg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4026.7175572519081" y="-765.49295774647896"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="I11-ez-z9Q">
@@ -510,7 +619,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxQ-L2-RAd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2791.6030534351144" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="2018" y="-765"/>
         </scene>
         <!--Portfolio-->
         <scene sceneID="r4x-5F-MgU">
@@ -529,7 +638,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="feQ-kC-hyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4706.1068702290077" y="-28.169014084507044"/>
+            <point key="canvasLocation" x="3108" y="-27"/>
         </scene>
         <!--About Us-->
         <scene sceneID="B2U-4k-8xb">
@@ -579,6 +688,9 @@
         <image name="Tab3" width="30" height="30"/>
         <image name="Tab4" width="30" height="30"/>
         <image name="Tab5" width="30" height="30"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -43,6 +43,8 @@
     self.button2.layer.cornerRadius = 5;
     self.button3.layer.cornerRadius = 5;
     self.button4.layer.cornerRadius = 5;
+    
+    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
 }
 
 /*

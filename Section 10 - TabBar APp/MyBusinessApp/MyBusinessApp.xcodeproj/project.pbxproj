@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BA1F6C9F2AF1726600F2A8A2 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6C9E2AF1726600F2A8A2 /* ContactViewController.m */; };
 		BA1F6CA22AF1744A00F2A8A2 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CA12AF1744A00F2A8A2 /* MapPin.m */; };
+		BA1F6CA52AF1AFE000F2A8A2 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CA42AF1AFE000F2A8A2 /* EmailViewController.m */; };
+		BA1F6CA82AF1B49A00F2A8A2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1F6CA72AF1B49A00F2A8A2 /* Accounts.framework */; };
+		BA1F6CAA2AF1B4A700F2A8A2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1F6CA92AF1B4A700F2A8A2 /* MessageUI.framework */; };
 		BA8E82062AEAE0D6005FA11A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82052AEAE0D6005FA11A /* AppDelegate.m */; };
 		BA8E82092AEAE0D6005FA11A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82082AEAE0D6005FA11A /* SceneDelegate.m */; };
 		BA8E820C2AEAE0D6005FA11A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E820B2AEAE0D6005FA11A /* ViewController.m */; };
@@ -47,6 +50,10 @@
 		BA1F6C9E2AF1726600F2A8A2 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		BA1F6CA02AF1744A00F2A8A2 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
 		BA1F6CA12AF1744A00F2A8A2 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		BA1F6CA32AF1AFE000F2A8A2 /* EmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		BA1F6CA42AF1AFE000F2A8A2 /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		BA1F6CA72AF1B49A00F2A8A2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BA1F6CA92AF1B4A700F2A8A2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BA8E82012AEAE0D6005FA11A /* MyBusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E82042AEAE0D6005FA11A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA8E82052AEAE0D6005FA11A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1F6CAA2AF1B4A700F2A8A2 /* MessageUI.framework in Frameworks */,
+				BA1F6CA82AF1B49A00F2A8A2 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +115,19 @@
 				BA1F6C9E2AF1726600F2A8A2 /* ContactViewController.m */,
 				BA1F6CA02AF1744A00F2A8A2 /* MapPin.h */,
 				BA1F6CA12AF1744A00F2A8A2 /* MapPin.m */,
+				BA1F6CA32AF1AFE000F2A8A2 /* EmailViewController.h */,
+				BA1F6CA42AF1AFE000F2A8A2 /* EmailViewController.m */,
 			);
 			path = Contact;
+			sourceTree = "<group>";
+		};
+		BA1F6CA62AF1B49A00F2A8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA1F6CA92AF1B4A700F2A8A2 /* MessageUI.framework */,
+				BA1F6CA72AF1B49A00F2A8A2 /* Accounts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BA8E81F82AEAE0D6005FA11A = {
@@ -117,6 +137,7 @@
 				BA8E821F2AEAE0D9005FA11A /* MyBusinessAppTests */,
 				BA8E82292AEAE0D9005FA11A /* MyBusinessAppUITests */,
 				BA8E82022AEAE0D6005FA11A /* Products */,
+				BA1F6CA62AF1B49A00F2A8A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -329,6 +350,7 @@
 				BA1F6CA22AF1744A00F2A8A2 /* MapPin.m in Sources */,
 				BA8E82172AEAE0D8005FA11A /* main.m in Sources */,
 				BA8E82092AEAE0D6005FA11A /* SceneDelegate.m in Sources */,
+				BA1F6CA52AF1AFE000F2A8A2 /* EmailViewController.m in Sources */,
 				BA8E823F2AEB18D6005FA11A /* ServicesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
