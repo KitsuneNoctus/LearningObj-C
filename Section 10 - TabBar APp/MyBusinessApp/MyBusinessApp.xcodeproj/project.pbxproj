@@ -12,6 +12,9 @@
 		BA1F6CA52AF1AFE000F2A8A2 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CA42AF1AFE000F2A8A2 /* EmailViewController.m */; };
 		BA1F6CA82AF1B49A00F2A8A2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1F6CA72AF1B49A00F2A8A2 /* Accounts.framework */; };
 		BA1F6CAA2AF1B4A700F2A8A2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1F6CA92AF1B4A700F2A8A2 /* MessageUI.framework */; };
+		BA1F6CAE2AF1C0F200F2A8A2 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CAD2AF1C0F200F2A8A2 /* SocialTableViewController.m */; };
+		BA1F6CB12AF1C10A00F2A8A2 /* SocialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CB02AF1C10A00F2A8A2 /* SocialTableViewCell.m */; };
+		BA1F6CB42AF1C11900F2A8A2 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F6CB32AF1C11900F2A8A2 /* SocialViewController.m */; };
 		BA8E82062AEAE0D6005FA11A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82052AEAE0D6005FA11A /* AppDelegate.m */; };
 		BA8E82092AEAE0D6005FA11A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E82082AEAE0D6005FA11A /* SceneDelegate.m */; };
 		BA8E820C2AEAE0D6005FA11A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E820B2AEAE0D6005FA11A /* ViewController.m */; };
@@ -54,6 +57,12 @@
 		BA1F6CA42AF1AFE000F2A8A2 /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
 		BA1F6CA72AF1B49A00F2A8A2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BA1F6CA92AF1B4A700F2A8A2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BA1F6CAC2AF1C0F200F2A8A2 /* SocialTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewController.h; sourceTree = "<group>"; };
+		BA1F6CAD2AF1C0F200F2A8A2 /* SocialTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
+		BA1F6CAF2AF1C10A00F2A8A2 /* SocialTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewCell.h; sourceTree = "<group>"; };
+		BA1F6CB02AF1C10A00F2A8A2 /* SocialTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewCell.m; sourceTree = "<group>"; };
+		BA1F6CB22AF1C11900F2A8A2 /* SocialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		BA1F6CB32AF1C11900F2A8A2 /* SocialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
 		BA8E82012AEAE0D6005FA11A /* MyBusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E82042AEAE0D6005FA11A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA8E82052AEAE0D6005FA11A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +139,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA1F6CAB2AF1C0D300F2A8A2 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				BA1F6CAC2AF1C0F200F2A8A2 /* SocialTableViewController.h */,
+				BA1F6CAD2AF1C0F200F2A8A2 /* SocialTableViewController.m */,
+				BA1F6CAF2AF1C10A00F2A8A2 /* SocialTableViewCell.h */,
+				BA1F6CB02AF1C10A00F2A8A2 /* SocialTableViewCell.m */,
+				BA1F6CB22AF1C11900F2A8A2 /* SocialViewController.h */,
+				BA1F6CB32AF1C11900F2A8A2 /* SocialViewController.m */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
 		BA8E81F82AEAE0D6005FA11A = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +185,7 @@
 				BA8E82392AEB189E005FA11A /* Services */,
 				BAAF24592AEC7CDB00D1219A /* Portfolio */,
 				BA1F6C9C2AF1724B00F2A8A2 /* Contact */,
+				BA1F6CAB2AF1C0D300F2A8A2 /* Social */,
 				BA8E820D2AEAE0D6005FA11A /* Main.storyboard */,
 				BA8E82102AEAE0D8005FA11A /* Assets.xcassets */,
 				BA8E82122AEAE0D8005FA11A /* LaunchScreen.storyboard */,
@@ -341,10 +364,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1F6CB12AF1C10A00F2A8A2 /* SocialTableViewCell.m in Sources */,
 				BA8E82422AEB18E6005FA11A /* ServicesViewController.m in Sources */,
 				BAAF245C2AEC7D4900D1219A /* PortfolioViewController.m in Sources */,
+				BA1F6CB42AF1C11900F2A8A2 /* SocialViewController.m in Sources */,
 				BA8E823C2AEB18C1005FA11A /* ServicesTableViewController.m in Sources */,
 				BA8E820C2AEAE0D6005FA11A /* ViewController.m in Sources */,
+				BA1F6CAE2AF1C0F200F2A8A2 /* SocialTableViewController.m in Sources */,
 				BA1F6C9F2AF1726600F2A8A2 /* ContactViewController.m in Sources */,
 				BA8E82062AEAE0D6005FA11A /* AppDelegate.m in Sources */,
 				BA1F6CA22AF1744A00F2A8A2 /* MapPin.m in Sources */,

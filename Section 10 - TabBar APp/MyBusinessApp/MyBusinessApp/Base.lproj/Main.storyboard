@@ -82,6 +82,9 @@
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
                                             <color key="baseForegroundColor" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="ZLe-x4-Dnx" kind="show" id="qcd-0g-YuB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -417,6 +420,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Social Links">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="ZLe-x4-Dnx" kind="show" id="YQa-ie-qkT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -602,6 +608,145 @@
             </objects>
             <point key="canvasLocation" x="1055.7251908396945" y="-27.464788732394368"/>
         </scene>
+        <!--Social Table View Controller-->
+        <scene sceneID="sb1-sI-Hah">
+            <objects>
+                <tableViewController id="ZLe-x4-Dnx" customClass="SocialTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="7mZ-Yf-AqS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="CjI-kg-PhC" customClass="SocialTableViewCell">
+                                <rect key="frame" x="0.0" y="50" width="393" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CjI-kg-PhC" id="0TW-zA-nkb">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="sk5-Fw-SnU">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OG-gC-via">
+                                            <rect key="frame" x="98" y="11" width="275" height="58"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SocialIcon1" translatesAutoresizingMaskIntoConstraints="NO" id="aQR-m2-XmR">
+                                            <rect key="frame" x="20" y="8" width="65" height="65"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="aQR-m2-XmR" secondAttribute="height" multiplier="1:1" id="ucX-zn-8sp"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="4OG-gC-via" firstAttribute="top" secondItem="0TW-zA-nkb" secondAttribute="topMargin" id="00n-1z-Rti"/>
+                                        <constraint firstItem="4OG-gC-via" firstAttribute="bottom" secondItem="0TW-zA-nkb" secondAttribute="bottomMargin" id="1NR-YO-BYB"/>
+                                        <constraint firstItem="4OG-gC-via" firstAttribute="leading" secondItem="aQR-m2-XmR" secondAttribute="trailing" constant="13" id="9gS-Sp-qKa"/>
+                                        <constraint firstItem="4OG-gC-via" firstAttribute="trailing" secondItem="0TW-zA-nkb" secondAttribute="trailingMargin" id="DTT-Qo-v6V"/>
+                                        <constraint firstItem="aQR-m2-XmR" firstAttribute="leading" secondItem="0TW-zA-nkb" secondAttribute="leadingMargin" id="F4y-Jl-2CY"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="aQR-m2-XmR" secondAttribute="bottom" constant="-4" id="VL3-Xx-npS"/>
+                                        <constraint firstAttribute="bottom" secondItem="sk5-Fw-SnU" secondAttribute="bottom" id="VaK-Ce-4eP"/>
+                                        <constraint firstItem="sk5-Fw-SnU" firstAttribute="top" secondItem="0TW-zA-nkb" secondAttribute="top" id="X57-Bz-ZOA"/>
+                                        <constraint firstItem="sk5-Fw-SnU" firstAttribute="leading" secondItem="0TW-zA-nkb" secondAttribute="leading" id="gX5-v7-jEN"/>
+                                        <constraint firstAttribute="trailing" secondItem="sk5-Fw-SnU" secondAttribute="trailing" id="sd7-4c-zJV"/>
+                                        <constraint firstItem="aQR-m2-XmR" firstAttribute="top" secondItem="0TW-zA-nkb" secondAttribute="topMargin" constant="-3" id="u5h-wB-yZD"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellImage" destination="aQR-m2-XmR" id="L8F-Lk-mkY"/>
+                                    <outlet property="cellTitle" destination="4OG-gC-via" id="FcD-5I-Go7"/>
+                                    <segue destination="uQw-6M-0SC" kind="show" identifier="showDetail" id="rVN-5L-u99"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZLe-x4-Dnx" id="L5K-8R-9dA"/>
+                            <outlet property="delegate" destination="ZLe-x4-Dnx" id="h97-Ys-qsK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="QBm-FX-GLt"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrW-A6-cEH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2017.5572519083969" y="-1453.5211267605634"/>
+        </scene>
+        <!--Social View Controller-->
+        <scene sceneID="6Rj-03-YPS">
+            <objects>
+                <viewController id="uQw-6M-0SC" customClass="SocialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="toD-t7-Va5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPb-9V-nFq">
+                                <rect key="frame" x="0.0" y="622" width="393" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="SJy-tb-adX">
+                                        <color key="tintColor" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="hqk-AF-y38" id="RKf-vk-8Fn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="refresh" id="HsU-vF-Pjz">
+                                        <color key="tintColor" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="reload" destination="hqk-AF-y38" id="mn5-Iz-qAJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JJk-zh-irc"/>
+                                    <barButtonItem systemItem="rewind" id="Oyw-ah-1He">
+                                        <color key="tintColor" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="goBack" destination="hqk-AF-y38" id="XY4-kX-Nbd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="8ar-Kg-y7B">
+                                        <color key="tintColor" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="goForward" destination="hqk-AF-y38" id="Ri9-SD-K5t"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hqk-AF-y38">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="622"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ZmF-Xk-M83">
+                                <rect key="frame" x="178" y="314.66666666666669" width="37" height="37"/>
+                                <color key="color" red="0.22745099660000001" green="0.35294118520000001" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eLy-Mw-XhL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hqk-AF-y38" firstAttribute="leading" secondItem="eLy-Mw-XhL" secondAttribute="leading" id="CQ2-Pn-FQP"/>
+                            <constraint firstItem="hqk-AF-y38" firstAttribute="trailing" secondItem="eLy-Mw-XhL" secondAttribute="trailing" id="KMf-mP-QTv"/>
+                            <constraint firstItem="hqk-AF-y38" firstAttribute="leading" secondItem="eLy-Mw-XhL" secondAttribute="leading" id="Kpf-yG-csB"/>
+                            <constraint firstItem="hqk-AF-y38" firstAttribute="top" secondItem="toD-t7-Va5" secondAttribute="top" id="ME7-GB-qRz"/>
+                            <constraint firstItem="ZmF-Xk-M83" firstAttribute="centerX" secondItem="toD-t7-Va5" secondAttribute="centerX" id="XuK-lb-BSc"/>
+                            <constraint firstItem="hqk-AF-y38" firstAttribute="trailing" secondItem="eLy-Mw-XhL" secondAttribute="trailing" id="aRP-r5-d03"/>
+                            <constraint firstItem="nPb-9V-nFq" firstAttribute="leading" secondItem="eLy-Mw-XhL" secondAttribute="leading" id="dhp-7b-tfg"/>
+                            <constraint firstItem="nPb-9V-nFq" firstAttribute="top" secondItem="hqk-AF-y38" secondAttribute="bottom" id="gNL-bE-1xI"/>
+                            <constraint firstItem="nPb-9V-nFq" firstAttribute="top" secondItem="hqk-AF-y38" secondAttribute="bottom" id="h7W-mx-Zl0"/>
+                            <constraint firstItem="nPb-9V-nFq" firstAttribute="bottom" secondItem="toD-t7-Va5" secondAttribute="bottom" id="hek-Px-NW3"/>
+                            <constraint firstItem="nPb-9V-nFq" firstAttribute="trailing" secondItem="eLy-Mw-XhL" secondAttribute="trailing" id="np4-K2-itI"/>
+                            <constraint firstItem="hqk-AF-y38" firstAttribute="top" secondItem="eLy-Mw-XhL" secondAttribute="top" id="vuS-ZU-VL5"/>
+                            <constraint firstItem="ZmF-Xk-M83" firstAttribute="centerY" secondItem="toD-t7-Va5" secondAttribute="centerY" id="yap-yt-f7Y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="G9U-SH-yE6"/>
+                    <connections>
+                        <outlet property="actInd" destination="ZmF-Xk-M83" id="NdZ-OC-Cbn"/>
+                        <outlet property="webView" destination="hqk-AF-y38" id="TkF-EU-Pty"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Nz-CM-0bj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2936.6412213740455" y="-1454.2253521126761"/>
+        </scene>
         <!--Contact-->
         <scene sceneID="jZv-Rj-V7l">
             <objects>
@@ -679,10 +824,14 @@
             <point key="canvasLocation" x="-83" y="753"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YQa-ie-qkT"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="2560" height="1600"/>
         <image name="Image1" width="300" height="168"/>
         <image name="Logo" width="526" height="448"/>
+        <image name="SocialIcon1" width="512" height="512"/>
         <image name="Tab1" width="30" height="30"/>
         <image name="Tab2" width="30" height="30"/>
         <image name="Tab3" width="30" height="30"/>
