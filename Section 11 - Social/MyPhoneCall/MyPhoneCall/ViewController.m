@@ -19,4 +19,8 @@
 }
 
 
+- (IBAction)phoneCalls:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:123456789"] options:@{} completionHandler:nil];
+}
+
 @end

@@ -9,6 +9,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)phoneCalls:(id)sender;
+
+
 
 @end
 
