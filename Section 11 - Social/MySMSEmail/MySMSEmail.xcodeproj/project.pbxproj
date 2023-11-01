@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA345CD12AF2D1A2004131FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CD02AF2D1A2004131FD /* AppDelegate.m */; };
+		BA345CD42AF2D1A2004131FD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CD32AF2D1A2004131FD /* SceneDelegate.m */; };
+		BA345CD72AF2D1A2004131FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CD62AF2D1A2004131FD /* ViewController.m */; };
+		BA345CDA2AF2D1A2004131FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA345CD82AF2D1A2004131FD /* Main.storyboard */; };
+		BA345CDC2AF2D1A4004131FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA345CDB2AF2D1A4004131FD /* Assets.xcassets */; };
+		BA345CDF2AF2D1A4004131FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA345CDD2AF2D1A4004131FD /* LaunchScreen.storyboard */; };
+		BA345CE22AF2D1A4004131FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CE12AF2D1A4004131FD /* main.m */; };
+		BA345CEC2AF2D1A4004131FD /* MySMSEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CEB2AF2D1A4004131FD /* MySMSEmailTests.m */; };
+		BA345CF62AF2D1A4004131FD /* MySMSEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CF52AF2D1A4004131FD /* MySMSEmailUITests.m */; };
+		BA345CF82AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CF72AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA345CE82AF2D1A4004131FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA345CC42AF2D1A2004131FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA345CCB2AF2D1A2004131FD;
+			remoteInfo = MySMSEmail;
+		};
+		BA345CF22AF2D1A4004131FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA345CC42AF2D1A2004131FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA345CCB2AF2D1A2004131FD;
+			remoteInfo = MySMSEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA345CCC2AF2D1A2004131FD /* MySMSEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySMSEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA345CCF2AF2D1A2004131FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA345CD02AF2D1A2004131FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA345CD22AF2D1A2004131FD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA345CD32AF2D1A2004131FD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA345CD52AF2D1A2004131FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA345CD62AF2D1A2004131FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA345CD92AF2D1A2004131FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA345CDB2AF2D1A4004131FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA345CDE2AF2D1A4004131FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA345CE02AF2D1A4004131FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA345CE12AF2D1A4004131FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA345CE72AF2D1A4004131FD /* MySMSEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySMSEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA345CEB2AF2D1A4004131FD /* MySMSEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySMSEmailTests.m; sourceTree = "<group>"; };
+		BA345CF12AF2D1A4004131FD /* MySMSEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySMSEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA345CF52AF2D1A4004131FD /* MySMSEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySMSEmailUITests.m; sourceTree = "<group>"; };
+		BA345CF72AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySMSEmailUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA345CC92AF2D1A2004131FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA345CE42AF2D1A4004131FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA345CEE2AF2D1A4004131FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA345CC32AF2D1A2004131FD = {
+			isa = PBXGroup;
+			children = (
+				BA345CCE2AF2D1A2004131FD /* MySMSEmail */,
+				BA345CEA2AF2D1A4004131FD /* MySMSEmailTests */,
+				BA345CF42AF2D1A4004131FD /* MySMSEmailUITests */,
+				BA345CCD2AF2D1A2004131FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA345CCD2AF2D1A2004131FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA345CCC2AF2D1A2004131FD /* MySMSEmail.app */,
+				BA345CE72AF2D1A4004131FD /* MySMSEmailTests.xctest */,
+				BA345CF12AF2D1A4004131FD /* MySMSEmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA345CCE2AF2D1A2004131FD /* MySMSEmail */ = {
+			isa = PBXGroup;
+			children = (
+				BA345CCF2AF2D1A2004131FD /* AppDelegate.h */,
+				BA345CD02AF2D1A2004131FD /* AppDelegate.m */,
+				BA345CD22AF2D1A2004131FD /* SceneDelegate.h */,
+				BA345CD32AF2D1A2004131FD /* SceneDelegate.m */,
+				BA345CD52AF2D1A2004131FD /* ViewController.h */,
+				BA345CD62AF2D1A2004131FD /* ViewController.m */,
+				BA345CD82AF2D1A2004131FD /* Main.storyboard */,
+				BA345CDB2AF2D1A4004131FD /* Assets.xcassets */,
+				BA345CDD2AF2D1A4004131FD /* LaunchScreen.storyboard */,
+				BA345CE02AF2D1A4004131FD /* Info.plist */,
+				BA345CE12AF2D1A4004131FD /* main.m */,
+			);
+			path = MySMSEmail;
+			sourceTree = "<group>";
+		};
+		BA345CEA2AF2D1A4004131FD /* MySMSEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA345CEB2AF2D1A4004131FD /* MySMSEmailTests.m */,
+			);
+			path = MySMSEmailTests;
+			sourceTree = "<group>";
+		};
+		BA345CF42AF2D1A4004131FD /* MySMSEmailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA345CF52AF2D1A4004131FD /* MySMSEmailUITests.m */,
+				BA345CF72AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m */,
+			);
+			path = MySMSEmailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA345CCB2AF2D1A2004131FD /* MySMSEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA345CFB2AF2D1A4004131FD /* Build configuration list for PBXNativeTarget "MySMSEmail" */;
+			buildPhases = (
+				BA345CC82AF2D1A2004131FD /* Sources */,
+				BA345CC92AF2D1A2004131FD /* Frameworks */,
+				BA345CCA2AF2D1A2004131FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySMSEmail;
+			productName = MySMSEmail;
+			productReference = BA345CCC2AF2D1A2004131FD /* MySMSEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA345CE62AF2D1A4004131FD /* MySMSEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA345CFE2AF2D1A4004131FD /* Build configuration list for PBXNativeTarget "MySMSEmailTests" */;
+			buildPhases = (
+				BA345CE32AF2D1A4004131FD /* Sources */,
+				BA345CE42AF2D1A4004131FD /* Frameworks */,
+				BA345CE52AF2D1A4004131FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA345CE92AF2D1A4004131FD /* PBXTargetDependency */,
+			);
+			name = MySMSEmailTests;
+			productName = MySMSEmailTests;
+			productReference = BA345CE72AF2D1A4004131FD /* MySMSEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA345CF02AF2D1A4004131FD /* MySMSEmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA345D012AF2D1A4004131FD /* Build configuration list for PBXNativeTarget "MySMSEmailUITests" */;
+			buildPhases = (
+				BA345CED2AF2D1A4004131FD /* Sources */,
+				BA345CEE2AF2D1A4004131FD /* Frameworks */,
+				BA345CEF2AF2D1A4004131FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA345CF32AF2D1A4004131FD /* PBXTargetDependency */,
+			);
+			name = MySMSEmailUITests;
+			productName = MySMSEmailUITests;
+			productReference = BA345CF12AF2D1A4004131FD /* MySMSEmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA345CC42AF2D1A2004131FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA345CCB2AF2D1A2004131FD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA345CE62AF2D1A4004131FD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA345CCB2AF2D1A2004131FD;
+					};
+					BA345CF02AF2D1A4004131FD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA345CCB2AF2D1A2004131FD;
+					};
+				};
+			};
+			buildConfigurationList = BA345CC72AF2D1A2004131FD /* Build configuration list for PBXProject "MySMSEmail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA345CC32AF2D1A2004131FD;
+			productRefGroup = BA345CCD2AF2D1A2004131FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA345CCB2AF2D1A2004131FD /* MySMSEmail */,
+				BA345CE62AF2D1A4004131FD /* MySMSEmailTests */,
+				BA345CF02AF2D1A4004131FD /* MySMSEmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA345CCA2AF2D1A2004131FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA345CDF2AF2D1A4004131FD /* LaunchScreen.storyboard in Resources */,
+				BA345CDC2AF2D1A4004131FD /* Assets.xcassets in Resources */,
+				BA345CDA2AF2D1A2004131FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA345CE52AF2D1A4004131FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA345CEF2AF2D1A4004131FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA345CC82AF2D1A2004131FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA345CD72AF2D1A2004131FD /* ViewController.m in Sources */,
+				BA345CD12AF2D1A2004131FD /* AppDelegate.m in Sources */,
+				BA345CE22AF2D1A4004131FD /* main.m in Sources */,
+				BA345CD42AF2D1A2004131FD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA345CE32AF2D1A4004131FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA345CEC2AF2D1A4004131FD /* MySMSEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA345CED2AF2D1A4004131FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA345CF62AF2D1A4004131FD /* MySMSEmailUITests.m in Sources */,
+				BA345CF82AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA345CE92AF2D1A4004131FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA345CCB2AF2D1A2004131FD /* MySMSEmail */;
+			targetProxy = BA345CE82AF2D1A4004131FD /* PBXContainerItemProxy */;
+		};
+		BA345CF32AF2D1A4004131FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA345CCB2AF2D1A2004131FD /* MySMSEmail */;
+			targetProxy = BA345CF22AF2D1A4004131FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA345CD82AF2D1A2004131FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA345CD92AF2D1A2004131FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA345CDD2AF2D1A4004131FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA345CDE2AF2D1A4004131FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA345CF92AF2D1A4004131FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA345CFA2AF2D1A4004131FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA345CFC2AF2D1A4004131FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySMSEmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySMSEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA345CFD2AF2D1A4004131FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySMSEmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySMSEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA345CFF2AF2D1A4004131FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySMSEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySMSEmail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySMSEmail";
+			};
+			name = Debug;
+		};
+		BA345D002AF2D1A4004131FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySMSEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySMSEmail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySMSEmail";
+			};
+			name = Release;
+		};
+		BA345D022AF2D1A4004131FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySMSEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySMSEmail;
+			};
+			name = Debug;
+		};
+		BA345D032AF2D1A4004131FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MySMSEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySMSEmail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA345CC72AF2D1A2004131FD /* Build configuration list for PBXProject "MySMSEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA345CF92AF2D1A4004131FD /* Debug */,
+				BA345CFA2AF2D1A4004131FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA345CFB2AF2D1A4004131FD /* Build configuration list for PBXNativeTarget "MySMSEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA345CFC2AF2D1A4004131FD /* Debug */,
+				BA345CFD2AF2D1A4004131FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA345CFE2AF2D1A4004131FD /* Build configuration list for PBXNativeTarget "MySMSEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA345CFF2AF2D1A4004131FD /* Debug */,
+				BA345D002AF2D1A4004131FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA345D012AF2D1A4004131FD /* Build configuration list for PBXNativeTarget "MySMSEmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA345D022AF2D1A4004131FD /* Debug */,
+				BA345D032AF2D1A4004131FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA345CC42AF2D1A2004131FD /* Project object */;
+}
