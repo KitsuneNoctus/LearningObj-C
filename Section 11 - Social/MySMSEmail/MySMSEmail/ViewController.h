@@ -9,7 +9,7 @@
 #import <Accounts/Accounts.h>
 #import <MessageUI/MessageUI.h>
 
-@interface ViewController : UIViewController <MFMessageComposeViewControllerDelegate> {
+@interface ViewController : UIViewController <MFMessageComposeViewControllerDelegate, MFMailComposeViewControllerDelegate> {
     
 }
 
@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
 - (IBAction)shareSMS:(id)sender;
+- (IBAction)shareEmail:(id)sender;
 
 
 @end
