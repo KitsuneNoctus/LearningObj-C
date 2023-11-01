@@ -17,6 +17,8 @@
 		BA345CEC2AF2D1A4004131FD /* MySMSEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CEB2AF2D1A4004131FD /* MySMSEmailTests.m */; };
 		BA345CF62AF2D1A4004131FD /* MySMSEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CF52AF2D1A4004131FD /* MySMSEmailUITests.m */; };
 		BA345CF82AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345CF72AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m */; };
+		BA345D062AF2D3D9004131FD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA345D052AF2D3D9004131FD /* Accounts.framework */; };
+		BA345D082AF2D3E4004131FD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA345D072AF2D3E4004131FD /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		BA345CF12AF2D1A4004131FD /* MySMSEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySMSEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA345CF52AF2D1A4004131FD /* MySMSEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySMSEmailUITests.m; sourceTree = "<group>"; };
 		BA345CF72AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySMSEmailUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA345D052AF2D3D9004131FD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BA345D072AF2D3E4004131FD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA345D082AF2D3E4004131FD /* MessageUI.framework in Frameworks */,
+				BA345D062AF2D3D9004131FD /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				BA345CEA2AF2D1A4004131FD /* MySMSEmailTests */,
 				BA345CF42AF2D1A4004131FD /* MySMSEmailUITests */,
 				BA345CCD2AF2D1A2004131FD /* Products */,
+				BA345D042AF2D3D9004131FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +141,15 @@
 				BA345CF72AF2D1A4004131FD /* MySMSEmailUITestsLaunchTests.m */,
 			);
 			path = MySMSEmailUITests;
+			sourceTree = "<group>";
+		};
+		BA345D042AF2D3D9004131FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA345D072AF2D3E4004131FD /* MessageUI.framework */,
+				BA345D052AF2D3D9004131FD /* Accounts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
