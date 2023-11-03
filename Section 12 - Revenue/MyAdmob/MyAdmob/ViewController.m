@@ -13,10 +13,11 @@
 
 @implementation ViewController
 
+//MARK: Commented out sections are from tutorial that are outdated.
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.banner.adUnitID = @"ca-app-pub-5649556413317477/1480073409";
+    self.banner.adUnitID = @"AD-ID";
     self.banner.rootViewController = self;
     self.banner.adSize = kGADAdSizeSmartBannerPortrait;
     //Above is deprecated, use GADPortraitAnchoredAdaptiveBannerAdSizeWithWidth
@@ -25,6 +26,11 @@
     self.banner.delegate = self;
     
     self.banner.hidden = YES;
+    
+//    self.interstitial = [[GADInterstitialAd alloc] initWithAdUnitID:@"AD-ID"];
+    GADRequest *request = [GADRequest request];
+    
+//    [self.interstitial loadRequest:request];
 }
 
 -(void)bannerViewDidReceiveAd:(GADBannerView *)bannerView {
@@ -35,5 +41,19 @@
     self.banner.hidden = YES;
 }
 
+
+- (IBAction)showAd:(id)sender {
+//    if (self.interstitial.isReady) {
+//        [self.interstitial presentFromRootViewController:self];
+//        [self createAd];
+//    }
+}
+
+-(void)createAd {
+//    self.interstitial = [[GADInterstitialAd alloc] initWithAdUnitID:@"AD-ID"];
+    GADRequest *request = [GADRequest request];
+    
+//    [self.interstitial loadRequest:request];
+}
 
 @end
