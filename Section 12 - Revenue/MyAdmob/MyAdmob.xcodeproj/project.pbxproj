@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475D863635F25B55DB62A708 /* Pods_MyAdmobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615B9477B340EEE8EB90E5AB /* Pods_MyAdmobTests.framework */; };
+		8720812A61101492A8989133 /* Pods_MyAdmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75D49B2239D48A814CBBF65 /* Pods_MyAdmob.framework */; };
 		BA345D582AF31ACE004131FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345D572AF31ACE004131FD /* AppDelegate.m */; };
 		BA345D5B2AF31ACE004131FD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345D5A2AF31ACE004131FD /* SceneDelegate.m */; };
 		BA345D5E2AF31ACE004131FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345D5D2AF31ACE004131FD /* ViewController.m */; };
@@ -17,6 +19,8 @@
 		BA345D732AF31AD0004131FD /* MyAdmobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345D722AF31AD0004131FD /* MyAdmobTests.m */; };
 		BA345D7D2AF31AD0004131FD /* MyAdmobUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345D7C2AF31AD0004131FD /* MyAdmobUITests.m */; };
 		BA345D7F2AF31AD0004131FD /* MyAdmobUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA345D7E2AF31AD0004131FD /* MyAdmobUITestsLaunchTests.m */; };
+		BA345D8D2AF46BDC004131FD /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = BA345D8C2AF46BDC004131FD /* GoogleMobileAds */; };
+		C8D2C3369E1F01AED8B2D337 /* Pods_MyAdmob_MyAdmobUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE24A0DDD68EF97808695F /* Pods_MyAdmob_MyAdmobUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AE24A0DDD68EF97808695F /* Pods_MyAdmob_MyAdmobUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAdmob_MyAdmobUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234EE46AF5353C5EED2C7DFE /* Pods-MyAdmob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAdmob.debug.xcconfig"; path = "Target Support Files/Pods-MyAdmob/Pods-MyAdmob.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD4B6EB3EF183B189A7A5CC /* Pods-MyAdmob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAdmob.release.xcconfig"; path = "Target Support Files/Pods-MyAdmob/Pods-MyAdmob.release.xcconfig"; sourceTree = "<group>"; };
+		615B9477B340EEE8EB90E5AB /* Pods_MyAdmobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAdmobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C5203E5302857B67580EEB /* Pods-MyAdmobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAdmobTests.release.xcconfig"; path = "Target Support Files/Pods-MyAdmobTests/Pods-MyAdmobTests.release.xcconfig"; sourceTree = "<group>"; };
+		A75D49B2239D48A814CBBF65 /* Pods_MyAdmob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAdmob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA345D532AF31ACE004131FD /* MyAdmob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAdmob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA345D562AF31ACE004131FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA345D572AF31ACE004131FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,9 @@
 		BA345D782AF31AD0004131FD /* MyAdmobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAdmobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA345D7C2AF31AD0004131FD /* MyAdmobUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAdmobUITests.m; sourceTree = "<group>"; };
 		BA345D7E2AF31AD0004131FD /* MyAdmobUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAdmobUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D48605A5387FAD1B2BACA623 /* Pods-MyAdmobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAdmobTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAdmobTests/Pods-MyAdmobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31EB27C3418E65B3E953C68 /* Pods-MyAdmob-MyAdmobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAdmob-MyAdmobUITests.release.xcconfig"; path = "Target Support Files/Pods-MyAdmob-MyAdmobUITests/Pods-MyAdmob-MyAdmobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9190912AB37BB407EC25220 /* Pods-MyAdmob-MyAdmobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAdmob-MyAdmobUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyAdmob-MyAdmobUITests/Pods-MyAdmob-MyAdmobUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA345D8D2AF46BDC004131FD /* GoogleMobileAds in Frameworks */,
+				8720812A61101492A8989133 /* Pods_MyAdmob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475D863635F25B55DB62A708 /* Pods_MyAdmobTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D2C3369E1F01AED8B2D337 /* Pods_MyAdmob_MyAdmobUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2CE4FEF22ED47AF2B0B517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234EE46AF5353C5EED2C7DFE /* Pods-MyAdmob.debug.xcconfig */,
+				4DD4B6EB3EF183B189A7A5CC /* Pods-MyAdmob.release.xcconfig */,
+				F9190912AB37BB407EC25220 /* Pods-MyAdmob-MyAdmobUITests.debug.xcconfig */,
+				E31EB27C3418E65B3E953C68 /* Pods-MyAdmob-MyAdmobUITests.release.xcconfig */,
+				D48605A5387FAD1B2BACA623 /* Pods-MyAdmobTests.debug.xcconfig */,
+				94C5203E5302857B67580EEB /* Pods-MyAdmobTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BA345D4A2AF31ACE004131FD = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,8 @@
 				BA345D712AF31AD0004131FD /* MyAdmobTests */,
 				BA345D7B2AF31AD0004131FD /* MyAdmobUITests */,
 				BA345D542AF31ACE004131FD /* Products */,
+				0E2CE4FEF22ED47AF2B0B517 /* Pods */,
+				C1D891C630058BEC5BD254A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +168,16 @@
 			path = MyAdmobUITests;
 			sourceTree = "<group>";
 		};
+		C1D891C630058BEC5BD254A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A75D49B2239D48A814CBBF65 /* Pods_MyAdmob.framework */,
+				05AE24A0DDD68EF97808695F /* Pods_MyAdmob_MyAdmobUITests.framework */,
+				615B9477B340EEE8EB90E5AB /* Pods_MyAdmobTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,15 +185,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA345D822AF31AD0004131FD /* Build configuration list for PBXNativeTarget "MyAdmob" */;
 			buildPhases = (
+				EB5A62FC77C33966821CA57A /* [CP] Check Pods Manifest.lock */,
 				BA345D4F2AF31ACE004131FD /* Sources */,
 				BA345D502AF31ACE004131FD /* Frameworks */,
 				BA345D512AF31ACE004131FD /* Resources */,
+				FDC2708DFC3FEAEFF3524BF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyAdmob;
+			packageProductDependencies = (
+				BA345D8C2AF46BDC004131FD /* GoogleMobileAds */,
+			);
 			productName = MyAdmob;
 			productReference = BA345D532AF31ACE004131FD /* MyAdmob.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA345D852AF31AD0004131FD /* Build configuration list for PBXNativeTarget "MyAdmobTests" */;
 			buildPhases = (
+				8F7E6A2AC51ABD0162F0EAEA /* [CP] Check Pods Manifest.lock */,
 				BA345D6A2AF31AD0004131FD /* Sources */,
 				BA345D6B2AF31AD0004131FD /* Frameworks */,
 				BA345D6C2AF31AD0004131FD /* Resources */,
@@ -178,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA345D882AF31AD0004131FD /* Build configuration list for PBXNativeTarget "MyAdmobUITests" */;
 			buildPhases = (
+				3D83E55584AF26ECC62CED8B /* [CP] Check Pods Manifest.lock */,
 				BA345D742AF31AD0004131FD /* Sources */,
 				BA345D752AF31AD0004131FD /* Frameworks */,
 				BA345D762AF31AD0004131FD /* Resources */,
+				899266BEDDA8B60DC5DAB650 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +273,9 @@
 				Base,
 			);
 			mainGroup = BA345D4A2AF31ACE004131FD;
+			packageReferences = (
+				BA345D8B2AF46BDC004131FD /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = BA345D542AF31ACE004131FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,6 +313,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D83E55584AF26ECC62CED8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAdmob-MyAdmobUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899266BEDDA8B60DC5DAB650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAdmob-MyAdmobUITests/Pods-MyAdmob-MyAdmobUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAdmob-MyAdmobUITests/Pods-MyAdmob-MyAdmobUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAdmob-MyAdmobUITests/Pods-MyAdmob-MyAdmobUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7E6A2AC51ABD0162F0EAEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAdmobTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5A62FC77C33966821CA57A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAdmob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC2708DFC3FEAEFF3524BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAdmob/Pods-MyAdmob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAdmob/Pods-MyAdmob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAdmob/Pods-MyAdmob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA345D4F2AF31ACE004131FD /* Sources */ = {
@@ -437,6 +593,7 @@
 		};
 		BA345D832AF31AD0004131FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234EE46AF5353C5EED2C7DFE /* Pods-MyAdmob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +621,7 @@
 		};
 		BA345D842AF31AD0004131FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD4B6EB3EF183B189A7A5CC /* Pods-MyAdmob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +649,7 @@
 		};
 		BA345D862AF31AD0004131FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48605A5387FAD1B2BACA623 /* Pods-MyAdmobTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +668,7 @@
 		};
 		BA345D872AF31AD0004131FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5203E5302857B67580EEB /* Pods-MyAdmobTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +687,7 @@
 		};
 		BA345D892AF31AD0004131FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9190912AB37BB407EC25220 /* Pods-MyAdmob-MyAdmobUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +704,7 @@
 		};
 		BA345D8A2AF31AD0004131FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31EB27C3418E65B3E953C68 /* Pods-MyAdmob-MyAdmobUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -597,6 +759,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA345D8B2AF46BDC004131FD /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA345D8C2AF46BDC004131FD /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA345D8B2AF46BDC004131FD /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA345D4B2AF31ACE004131FD /* Project object */;
 }

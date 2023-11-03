@@ -1,0 +1,6 @@
+framework module Pods_MyAdmob_MyAdmobUITests {
+  umbrella header "Pods-MyAdmob-MyAdmobUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
