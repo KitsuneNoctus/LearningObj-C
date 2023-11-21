@@ -78,6 +78,8 @@
 }
 
 - (IBAction)restore:(id)sender {
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
+    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
 }
 
 - (IBAction)purchase:(id)sender {
