@@ -9,6 +9,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)detectMe:(id)sender;
+
+
 
 @end
 

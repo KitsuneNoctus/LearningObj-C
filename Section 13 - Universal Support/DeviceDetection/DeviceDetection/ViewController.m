@@ -19,4 +19,12 @@
 }
 
 
+- (IBAction)detectMe:(id)sender {
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        self.label.text = @"I am an iPhone";
+    }
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        self.label.text = @"I am an iPad";
+    }
+}
 @end
