@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA713D712B0D39BE001E64C1 /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA713D702B0D39BE001E64C1 /* StoreViewController.m */; };
 		BA770F582AFC20D700F81C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA770F572AFC20D700F81C66 /* AppDelegate.m */; };
 		BA770F5B2AFC20D700F81C66 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA770F5A2AFC20D700F81C66 /* SceneDelegate.m */; };
 		BA770F5E2AFC20D700F81C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA770F5D2AFC20D700F81C66 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA713D6F2B0D39BE001E64C1 /* StoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		BA713D702B0D39BE001E64C1 /* StoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
 		BA770F532AFC20D700F81C66 /* MyInAppPurchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInAppPurchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA770F562AFC20D700F81C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA770F572AFC20D700F81C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				BA770F5A2AFC20D700F81C66 /* SceneDelegate.m */,
 				BA770F5C2AFC20D700F81C66 /* ViewController.h */,
 				BA770F5D2AFC20D700F81C66 /* ViewController.m */,
+				BA713D6F2B0D39BE001E64C1 /* StoreViewController.h */,
+				BA713D702B0D39BE001E64C1 /* StoreViewController.m */,
 				BA770F5F2AFC20D700F81C66 /* Main.storyboard */,
 				BA770F622AFC20D900F81C66 /* Assets.xcassets */,
 				BA770F642AFC20D900F81C66 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				BA770F582AFC20D700F81C66 /* AppDelegate.m in Sources */,
 				BA770F692AFC20D900F81C66 /* main.m in Sources */,
 				BA770F5B2AFC20D700F81C66 /* SceneDelegate.m in Sources */,
+				BA713D712B0D39BE001E64C1 /* StoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
