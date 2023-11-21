@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAC7D1BA2B0D7578002F425C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1B92B0D7578002F425C /* AppDelegate.m */; };
+		BAC7D1BD2B0D7578002F425C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1BC2B0D7578002F425C /* SceneDelegate.m */; };
+		BAC7D1C02B0D7578002F425C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1BF2B0D7578002F425C /* ViewController.m */; };
+		BAC7D1C32B0D7578002F425C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC7D1C12B0D7578002F425C /* Main.storyboard */; };
+		BAC7D1C52B0D7579002F425C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC7D1C42B0D7579002F425C /* Assets.xcassets */; };
+		BAC7D1C82B0D7579002F425C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC7D1C62B0D7579002F425C /* LaunchScreen.storyboard */; };
+		BAC7D1CB2B0D7579002F425C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1CA2B0D7579002F425C /* main.m */; };
+		BAC7D1D52B0D7579002F425C /* MyScreenSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1D42B0D7579002F425C /* MyScreenSizeTests.m */; };
+		BAC7D1DF2B0D7579002F425C /* MyScreenSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1DE2B0D7579002F425C /* MyScreenSizeUITests.m */; };
+		BAC7D1E12B0D7579002F425C /* MyScreenSizeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D1E02B0D7579002F425C /* MyScreenSizeUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAC7D1D12B0D7579002F425C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC7D1AD2B0D7578002F425C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC7D1B42B0D7578002F425C;
+			remoteInfo = MyScreenSize;
+		};
+		BAC7D1DB2B0D7579002F425C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC7D1AD2B0D7578002F425C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC7D1B42B0D7578002F425C;
+			remoteInfo = MyScreenSize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAC7D1B52B0D7578002F425C /* MyScreenSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyScreenSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC7D1B82B0D7578002F425C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAC7D1B92B0D7578002F425C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAC7D1BB2B0D7578002F425C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BAC7D1BC2B0D7578002F425C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BAC7D1BE2B0D7578002F425C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAC7D1BF2B0D7578002F425C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAC7D1C22B0D7578002F425C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAC7D1C42B0D7579002F425C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAC7D1C72B0D7579002F425C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAC7D1C92B0D7579002F425C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC7D1CA2B0D7579002F425C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAC7D1D02B0D7579002F425C /* MyScreenSizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScreenSizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC7D1D42B0D7579002F425C /* MyScreenSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScreenSizeTests.m; sourceTree = "<group>"; };
+		BAC7D1DA2B0D7579002F425C /* MyScreenSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScreenSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC7D1DE2B0D7579002F425C /* MyScreenSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScreenSizeUITests.m; sourceTree = "<group>"; };
+		BAC7D1E02B0D7579002F425C /* MyScreenSizeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScreenSizeUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAC7D1B22B0D7578002F425C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7D1CD2B0D7579002F425C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7D1D72B0D7579002F425C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAC7D1AC2B0D7578002F425C = {
+			isa = PBXGroup;
+			children = (
+				BAC7D1B72B0D7578002F425C /* MyScreenSize */,
+				BAC7D1D32B0D7579002F425C /* MyScreenSizeTests */,
+				BAC7D1DD2B0D7579002F425C /* MyScreenSizeUITests */,
+				BAC7D1B62B0D7578002F425C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAC7D1B62B0D7578002F425C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7D1B52B0D7578002F425C /* MyScreenSize.app */,
+				BAC7D1D02B0D7579002F425C /* MyScreenSizeTests.xctest */,
+				BAC7D1DA2B0D7579002F425C /* MyScreenSizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAC7D1B72B0D7578002F425C /* MyScreenSize */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7D1B82B0D7578002F425C /* AppDelegate.h */,
+				BAC7D1B92B0D7578002F425C /* AppDelegate.m */,
+				BAC7D1BB2B0D7578002F425C /* SceneDelegate.h */,
+				BAC7D1BC2B0D7578002F425C /* SceneDelegate.m */,
+				BAC7D1BE2B0D7578002F425C /* ViewController.h */,
+				BAC7D1BF2B0D7578002F425C /* ViewController.m */,
+				BAC7D1C12B0D7578002F425C /* Main.storyboard */,
+				BAC7D1C42B0D7579002F425C /* Assets.xcassets */,
+				BAC7D1C62B0D7579002F425C /* LaunchScreen.storyboard */,
+				BAC7D1C92B0D7579002F425C /* Info.plist */,
+				BAC7D1CA2B0D7579002F425C /* main.m */,
+			);
+			path = MyScreenSize;
+			sourceTree = "<group>";
+		};
+		BAC7D1D32B0D7579002F425C /* MyScreenSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7D1D42B0D7579002F425C /* MyScreenSizeTests.m */,
+			);
+			path = MyScreenSizeTests;
+			sourceTree = "<group>";
+		};
+		BAC7D1DD2B0D7579002F425C /* MyScreenSizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7D1DE2B0D7579002F425C /* MyScreenSizeUITests.m */,
+				BAC7D1E02B0D7579002F425C /* MyScreenSizeUITestsLaunchTests.m */,
+			);
+			path = MyScreenSizeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAC7D1B42B0D7578002F425C /* MyScreenSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC7D1E42B0D7579002F425C /* Build configuration list for PBXNativeTarget "MyScreenSize" */;
+			buildPhases = (
+				BAC7D1B12B0D7578002F425C /* Sources */,
+				BAC7D1B22B0D7578002F425C /* Frameworks */,
+				BAC7D1B32B0D7578002F425C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyScreenSize;
+			productName = MyScreenSize;
+			productReference = BAC7D1B52B0D7578002F425C /* MyScreenSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAC7D1CF2B0D7579002F425C /* MyScreenSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC7D1E72B0D7579002F425C /* Build configuration list for PBXNativeTarget "MyScreenSizeTests" */;
+			buildPhases = (
+				BAC7D1CC2B0D7579002F425C /* Sources */,
+				BAC7D1CD2B0D7579002F425C /* Frameworks */,
+				BAC7D1CE2B0D7579002F425C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAC7D1D22B0D7579002F425C /* PBXTargetDependency */,
+			);
+			name = MyScreenSizeTests;
+			productName = MyScreenSizeTests;
+			productReference = BAC7D1D02B0D7579002F425C /* MyScreenSizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAC7D1D92B0D7579002F425C /* MyScreenSizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC7D1EA2B0D7579002F425C /* Build configuration list for PBXNativeTarget "MyScreenSizeUITests" */;
+			buildPhases = (
+				BAC7D1D62B0D7579002F425C /* Sources */,
+				BAC7D1D72B0D7579002F425C /* Frameworks */,
+				BAC7D1D82B0D7579002F425C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAC7D1DC2B0D7579002F425C /* PBXTargetDependency */,
+			);
+			name = MyScreenSizeUITests;
+			productName = MyScreenSizeUITests;
+			productReference = BAC7D1DA2B0D7579002F425C /* MyScreenSizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAC7D1AD2B0D7578002F425C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BAC7D1B42B0D7578002F425C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BAC7D1CF2B0D7579002F425C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BAC7D1B42B0D7578002F425C;
+					};
+					BAC7D1D92B0D7579002F425C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BAC7D1B42B0D7578002F425C;
+					};
+				};
+			};
+			buildConfigurationList = BAC7D1B02B0D7578002F425C /* Build configuration list for PBXProject "MyScreenSize" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAC7D1AC2B0D7578002F425C;
+			productRefGroup = BAC7D1B62B0D7578002F425C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAC7D1B42B0D7578002F425C /* MyScreenSize */,
+				BAC7D1CF2B0D7579002F425C /* MyScreenSizeTests */,
+				BAC7D1D92B0D7579002F425C /* MyScreenSizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAC7D1B32B0D7578002F425C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC7D1C82B0D7579002F425C /* LaunchScreen.storyboard in Resources */,
+				BAC7D1C52B0D7579002F425C /* Assets.xcassets in Resources */,
+				BAC7D1C32B0D7578002F425C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7D1CE2B0D7579002F425C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7D1D82B0D7579002F425C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAC7D1B12B0D7578002F425C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC7D1C02B0D7578002F425C /* ViewController.m in Sources */,
+				BAC7D1BA2B0D7578002F425C /* AppDelegate.m in Sources */,
+				BAC7D1CB2B0D7579002F425C /* main.m in Sources */,
+				BAC7D1BD2B0D7578002F425C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7D1CC2B0D7579002F425C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC7D1D52B0D7579002F425C /* MyScreenSizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7D1D62B0D7579002F425C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC7D1E12B0D7579002F425C /* MyScreenSizeUITestsLaunchTests.m in Sources */,
+				BAC7D1DF2B0D7579002F425C /* MyScreenSizeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAC7D1D22B0D7579002F425C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC7D1B42B0D7578002F425C /* MyScreenSize */;
+			targetProxy = BAC7D1D12B0D7579002F425C /* PBXContainerItemProxy */;
+		};
+		BAC7D1DC2B0D7579002F425C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC7D1B42B0D7578002F425C /* MyScreenSize */;
+			targetProxy = BAC7D1DB2B0D7579002F425C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAC7D1C12B0D7578002F425C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC7D1C22B0D7578002F425C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAC7D1C62B0D7579002F425C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC7D1C72B0D7579002F425C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAC7D1E22B0D7579002F425C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAC7D1E32B0D7579002F425C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC7D1E52B0D7579002F425C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyScreenSize/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MyScreenSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAC7D1E62B0D7579002F425C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyScreenSize/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MyScreenSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAC7D1E82B0D7579002F425C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MyScreenSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyScreenSize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyScreenSize";
+			};
+			name = Debug;
+		};
+		BAC7D1E92B0D7579002F425C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MyScreenSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyScreenSize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyScreenSize";
+			};
+			name = Release;
+		};
+		BAC7D1EB2B0D7579002F425C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MyScreenSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyScreenSize;
+			};
+			name = Debug;
+		};
+		BAC7D1EC2B0D7579002F425C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH946FT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.MyScreenSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyScreenSize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAC7D1B02B0D7578002F425C /* Build configuration list for PBXProject "MyScreenSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC7D1E22B0D7579002F425C /* Debug */,
+				BAC7D1E32B0D7579002F425C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC7D1E42B0D7579002F425C /* Build configuration list for PBXNativeTarget "MyScreenSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC7D1E52B0D7579002F425C /* Debug */,
+				BAC7D1E62B0D7579002F425C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC7D1E72B0D7579002F425C /* Build configuration list for PBXNativeTarget "MyScreenSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC7D1E82B0D7579002F425C /* Debug */,
+				BAC7D1E92B0D7579002F425C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC7D1EA2B0D7579002F425C /* Build configuration list for PBXNativeTarget "MyScreenSizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC7D1EB2B0D7579002F425C /* Debug */,
+				BAC7D1EC2B0D7579002F425C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAC7D1AD2B0D7578002F425C /* Project object */;
+}
