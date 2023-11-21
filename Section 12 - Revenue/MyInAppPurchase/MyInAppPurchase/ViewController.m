@@ -19,5 +19,12 @@
     self.level2Button.enabled = NO;
 }
 
+-(void)purchased {
+    self.level2Button.enabled = YES;
+    
+    self.unlockLevel2.enabled = NO;
+    self.unlockLevel2.hidden = YES;
+}
+
 
 @end

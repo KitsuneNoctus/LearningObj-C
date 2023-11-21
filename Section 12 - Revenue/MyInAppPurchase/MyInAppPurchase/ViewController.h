@@ -12,7 +12,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *level2Button;
 @property (weak, nonatomic) IBOutlet UIButton *unlockLevel2;
 
-
+-(void)purchased;
 
 
 @end
