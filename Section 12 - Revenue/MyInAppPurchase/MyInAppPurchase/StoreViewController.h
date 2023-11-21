@@ -6,10 +6,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/StoreKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface StoreViewController : UIViewController
+@interface StoreViewController : UIViewController <SKPaymentTransactionObserver, SKProductsRequestDelegate> {
+    
+}
+
+@property(strong, nonatomic) SKProduct *product;
+@property(strong, nonatomic) NSString *productID;
 
 @property (weak, nonatomic) IBOutlet UILabel *productTitle;
 @property (weak, nonatomic) IBOutlet UITextView *productDescription;

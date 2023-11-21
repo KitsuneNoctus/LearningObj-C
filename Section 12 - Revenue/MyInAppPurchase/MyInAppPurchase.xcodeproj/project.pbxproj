@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA713D712B0D39BE001E64C1 /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA713D702B0D39BE001E64C1 /* StoreViewController.m */; };
+		BA713D742B0D44B5001E64C1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA713D732B0D44B5001E64C1 /* StoreKit.framework */; };
 		BA770F582AFC20D700F81C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA770F572AFC20D700F81C66 /* AppDelegate.m */; };
 		BA770F5B2AFC20D700F81C66 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA770F5A2AFC20D700F81C66 /* SceneDelegate.m */; };
 		BA770F5E2AFC20D700F81C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA770F5D2AFC20D700F81C66 /* ViewController.m */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		BA713D6F2B0D39BE001E64C1 /* StoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
 		BA713D702B0D39BE001E64C1 /* StoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		BA713D732B0D44B5001E64C1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BA770F532AFC20D700F81C66 /* MyInAppPurchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInAppPurchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA770F562AFC20D700F81C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA770F572AFC20D700F81C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA713D742B0D44B5001E64C1 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA713D722B0D44B5001E64C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA713D732B0D44B5001E64C1 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA770F4A2AFC20D700F81C66 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +102,7 @@
 				BA770F712AFC20D900F81C66 /* MyInAppPurchaseTests */,
 				BA770F7B2AFC20D900F81C66 /* MyInAppPurchaseUITests */,
 				BA770F542AFC20D700F81C66 /* Products */,
+				BA713D722B0D44B5001E64C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
