@@ -7,6 +7,8 @@
 
 #import "ViewController.h"
 
+#define savePurchase @"Save"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.level2Button.enabled = NO;
+    NSUserDefaults *savedApp = [NSUserDefaults standardUserDefaults];
+    bool saved = [savedApp boolForKey:savePurchase];
+    
+    if (saved) {
+        [self purchased];
+    }
+    else {
+        self.level2Button.enabled = NO;
+    }
 }
 
 -(void)purchased {
@@ -24,6 +34,10 @@
     
     self.unlockLevel2.enabled = NO;
     self.unlockLevel2.hidden = YES;
+    
+    NSUserDefaults *SavedApp = [NSUserDefaults standardUserDefaults];
+    [SavedApp setBool:true forKey:savePurchase];
+    [SavedApp synchronize];
 }
 
 
