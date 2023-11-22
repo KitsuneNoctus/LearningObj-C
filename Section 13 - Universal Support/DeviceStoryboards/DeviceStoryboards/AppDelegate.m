@@ -16,6 +16,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        UIStoryboard *Storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+        UIViewController *vc = [Storyboard instantiateInitialViewController];
+        self.window.rootViewController = vc;
+    }
+    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        UIStoryboard *Storyboard = [UIStoryboard storyboardWithName:@"iPad" bundle:[NSBundle mainBundle]];
+        UIViewController *vc = [Storyboard instantiateInitialViewController];
+        self.window.rootViewController = vc;
+    }
+    
     return YES;
 }
 

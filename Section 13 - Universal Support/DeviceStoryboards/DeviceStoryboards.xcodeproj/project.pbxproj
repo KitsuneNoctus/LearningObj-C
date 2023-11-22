@@ -17,6 +17,7 @@
 		BAC7D2162B0D7927002F425C /* DeviceStoryboardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D2152B0D7927002F425C /* DeviceStoryboardsTests.m */; };
 		BAC7D2202B0D7927002F425C /* DeviceStoryboardsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D21F2B0D7927002F425C /* DeviceStoryboardsUITests.m */; };
 		BAC7D2222B0D7927002F425C /* DeviceStoryboardsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7D2212B0D7927002F425C /* DeviceStoryboardsUITestsLaunchTests.m */; };
+		BAC7D22F2B0D79FB002F425C /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC7D22E2B0D79FB002F425C /* iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BAC7D21B2B0D7927002F425C /* DeviceStoryboardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceStoryboardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC7D21F2B0D7927002F425C /* DeviceStoryboardsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceStoryboardsUITests.m; sourceTree = "<group>"; };
 		BAC7D2212B0D7927002F425C /* DeviceStoryboardsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceStoryboardsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BAC7D22E2B0D79FB002F425C /* iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				BAC7D1FF2B0D7925002F425C /* ViewController.h */,
 				BAC7D2002B0D7925002F425C /* ViewController.m */,
 				BAC7D2022B0D7925002F425C /* Main.storyboard */,
+				BAC7D22E2B0D79FB002F425C /* iPad.storyboard */,
 				BAC7D2052B0D7926002F425C /* Assets.xcassets */,
 				BAC7D2072B0D7926002F425C /* LaunchScreen.storyboard */,
 				BAC7D20A2B0D7926002F425C /* Info.plist */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC7D22F2B0D79FB002F425C /* iPad.storyboard in Resources */,
 				BAC7D2092B0D7926002F425C /* LaunchScreen.storyboard in Resources */,
 				BAC7D2062B0D7926002F425C /* Assets.xcassets in Resources */,
 				BAC7D2042B0D7925002F425C /* Main.storyboard in Resources */,
